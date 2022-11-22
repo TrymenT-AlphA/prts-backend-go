@@ -1,7 +1,7 @@
 package model
 
 type Character struct {
-	ID                          string `gorm:"primarykey"`
+	ID                          string `gorm:"primaryKey"`
 	Name                        string
 	Description                 string
 	CanUseGeneralPotentialItem  bool

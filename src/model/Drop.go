@@ -4,9 +4,9 @@ import "time"
 
 type Drop struct {
 	Item     Item
-	ItemID   string `gorm:"primarykey"`
+	ItemID   string `gorm:"primaryKey"`
 	Stage    Stage
-	StageID  string `gorm:"primarykey"`
+	StageID  string `gorm:"primaryKey"`
 	Times    int
 	Quantity int
 	StdDev   float64

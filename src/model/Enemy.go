@@ -1,7 +1,7 @@
 package model
 
 type Enemy struct {
-	ID              string `gorm:"primarykey"`
+	ID              string `gorm:"primaryKey"`
 	SortID          int
 	Name            string
 	Index           string

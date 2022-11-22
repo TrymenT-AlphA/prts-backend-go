@@ -13,7 +13,9 @@ func InitTestDB() error {
 		return nil
 	}
 	var err error
-	TestDB, err = gorm.Open(mysql.Open(TestDSN), &gorm.Config{})
+	TestDB, err = gorm.Open(mysql.Open(TestDSN), &gorm.Config{
+		DisableForeignKeyConstraintWhenMigrating: true,
+	})
 	if err != nil {
 		return err
 	}

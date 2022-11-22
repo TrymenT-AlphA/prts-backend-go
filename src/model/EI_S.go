@@ -2,8 +2,8 @@ package model
 
 type EI_S struct {
 	EnemyInstance      EnemyInstance
-	EnemyID            string `gorm:"primarykey"`
-	EnemyInstanceLevel int    `gorm:"primarykey"`
+	EnemyID            string `gorm:"primaryKey"`
+	EnemyInstanceLevel int    `gorm:"primaryKey"`
 	Stage              Stage
-	StageID            string `gorm:"primarykey"`
+	StageID            string `gorm:"primaryKey"`
 }

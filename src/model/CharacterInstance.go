@@ -2,9 +2,9 @@ package model
 
 type CharacterInstance struct {
 	Character        Character
-	CharacterID      string `gorm:"primarykey"`
-	Phase            int    `gorm:"primarykey"`
-	Level            int    `gorm:"primarykey"`
+	CharacterID      string `gorm:"primaryKey"`
+	Phase            int    `gorm:"primaryKey"`
+	Level            int    `gorm:"primaryKey"`
 	RangeID          string
 	MaxHp            int
 	Atk              int

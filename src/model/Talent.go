@@ -1,13 +1,13 @@
 package model
 
 type Talent struct {
-	PrefabKey     int `gorm:"primarykey"`
-	Phase         int `gorm:"primarykey"`
-	Level         int `gorm:"primarykey"`
-	PotentialRank int `gorm:"primarykey"`
+	PrefabKey     int `gorm:"primaryKey"`
+	Phase         int `gorm:"primaryKey"`
+	Level         int `gorm:"primaryKey"`
+	PotentialRank int `gorm:"primaryKey"`
 	Name          string
 	Description   string
 	RangeID       string
 	Character     Character
-	CharacterID   string `gorm:"primarykey"`
+	CharacterID   string `gorm:"primaryKey"`
 }

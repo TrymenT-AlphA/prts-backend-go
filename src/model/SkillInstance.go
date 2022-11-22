@@ -2,8 +2,8 @@ package model
 
 type SkillInstance struct {
 	Skill         Skill
-	SkillID       string `gorm:"primarykey"`
-	Level         int    `gorm:"primarykey"`
+	SkillID       string `gorm:"primaryKey"`
+	Level         int    `gorm:"primaryKey"`
 	Name          string
 	RangeID       string
 	Description   string

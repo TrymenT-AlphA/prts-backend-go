@@ -2,9 +2,9 @@ package model
 
 type C_BS struct {
 	Character       Character
-	CharacterID     string `gorm:"primarykey"`
+	CharacterID     string `gorm:"primaryKey"`
 	BuildingSkill   BuildingSkill
-	BuildingSkillID string `gorm:"primarykey"`
+	BuildingSkillID string `gorm:"primaryKey"`
 	Phase           int
 	Level           int
 }

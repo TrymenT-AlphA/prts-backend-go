@@ -1,8 +1,8 @@
 package model
 
 type EnemyInstance struct {
-	EnemyID         string `gorm:"primarykey"`
-	Level           int    `gorm:"primarykey"`
+	EnemyID         string `gorm:"primaryKey"`
+	Level           int    `gorm:"primaryKey"`
 	MaxHp           int
 	Atk             int
 	Def             int

@@ -1,7 +1,7 @@
 package model
 
 type BuildingSkill struct {
-	ID          string `gorm:"primarykey"`
+	ID          string `gorm:"primaryKey"`
 	Name        string
 	Icon        string
 	SortID      int

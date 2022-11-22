@@ -8,6 +8,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildEnemy(db *gorm.DB) error {
@@ -45,6 +46,8 @@ func PrtsBuildEnemy(db *gorm.DB) error {
 		enemy.IsInvalidKilled = fjValue.GetBool("IsInvalidKilled")
 		enemies = append(enemies, enemy)
 	}
-	db.Create(&enemies)
+	if err = db.Table("enemies").Clauses(clause.OnConflict{UpdateAll: true}).Create(&enemies).Error; err != nil {
+		return err
+	}
 	return nil
 }

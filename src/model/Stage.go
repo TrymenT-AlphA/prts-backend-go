@@ -1,7 +1,9 @@
 package model
 
+import "database/sql"
+
 type Stage struct {
-	ID                   string `gorm:"primarykey"`
+	ID                   string `gorm:"primaryKey"`
 	Type                 string
 	Difficulty           string
 	PerformanceStageFlag string
@@ -17,7 +19,7 @@ type Stage struct {
 	PracticeTicketCost   int
 	ApCost               int
 	HardStage            *Stage
-	HardStageID          string `gorm:"index:unique"`
+	HardStageID          sql.NullString `gorm:"index:unique"`
 	Drops                []Drop
 	EnemyInstances       []EI_S
 }
