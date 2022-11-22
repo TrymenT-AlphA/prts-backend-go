@@ -2,12 +2,14 @@ package server
 
 import (
 	"log"
+	"prts-backend/src/service"
 
 	"github.com/gofiber/fiber"
 )
 
 func Prts(port string) {
-	err := InitDB()
+
+	err := service.InitDatabase()
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -15,7 +17,7 @@ func Prts(port string) {
 	prts := fiber.New()
 
 	prts.Get("/", func(c *fiber.Ctx) {
-		c.SendString("prts-backend running!")
+		c.SendString("prts-backend is running!")
 	})
 
 	prts.Listen(port)

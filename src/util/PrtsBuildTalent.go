@@ -40,8 +40,15 @@ func PrtsBuildTalent(db *gorm.DB) error {
 		talent.CharacterID = string(fjValue.GetStringBytes("CharacterID"))
 		talents = append(talents, talent)
 	}
-	if err = db.Table("talent").Clauses(clause.OnConflict{UpdateAll: true}).Create(&talents).Error; err != nil {
+
+	err = db.
+		Table("talent").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&talents).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

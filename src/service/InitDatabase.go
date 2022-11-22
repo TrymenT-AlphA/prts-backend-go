@@ -1,4 +1,4 @@
-package server
+package service
 
 import (
 	"io/ioutil"
@@ -14,7 +14,7 @@ import (
 
 var db *gorm.DB = nil
 
-func InitDB() error {
+func InitDatabase() error {
 	if db != nil {
 		return nil
 	}
@@ -41,10 +41,14 @@ func InitDB() error {
 	err = util.PrtsAutoMigrate(db)
 	if err != nil {
 		log.Fatal(err)
+	} else {
+		log.Print("[SUCCESS] auto migrate database")
 	}
 	err = util.PrtsAutoBuild(db)
 	if err != nil {
 		log.Fatal(err)
+	} else {
+		log.Print("[SUCCESS] auto build table data")
 	}
 
 	return nil

@@ -46,8 +46,15 @@ func PrtsBuildEnemy(db *gorm.DB) error {
 		enemy.IsInvalidKilled = fjValue.GetBool("IsInvalidKilled")
 		enemies = append(enemies, enemy)
 	}
-	if err = db.Table("enemy").Clauses(clause.OnConflict{UpdateAll: true}).Create(&enemies).Error; err != nil {
+
+	err = db.
+		Table("enemy").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&enemies).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

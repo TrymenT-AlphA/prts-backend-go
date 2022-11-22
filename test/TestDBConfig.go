@@ -19,6 +19,7 @@ func InitTestDB() error {
 			SingularTable: true,
 			NoLowerCase:   true,
 		},
+		//* disable foreignKey Constraint to speed up
 		DisableForeignKeyConstraintWhenMigrating: true,
 	})
 	if err != nil {

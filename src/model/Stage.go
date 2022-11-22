@@ -19,7 +19,7 @@ type Stage struct {
 	PracticeTicketCost   int
 	ApCost               int
 	HardStage            *Stage
-	HardStageID          sql.NullString `gorm:"index:unique"`
-	Drops                []Drop
-	EnemyInstances       []EI_S
+	HardStageID          sql.NullString `gorm:"unique"`
+	Drops                []Drop         `gorm:"foreignKey:StageID"`
+	EnemyInstances       []EI_S         `gorm:"foreignKey:StageID"`
 }

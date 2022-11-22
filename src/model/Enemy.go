@@ -15,5 +15,5 @@ type Enemy struct {
 	Description     string
 	Ability         string
 	IsInvalidKilled bool
-	EnemyInstances  []EnemyInstance
+	EnemyInstances  []EnemyInstance `grom:"foreignKey:EnemyID"`
 }

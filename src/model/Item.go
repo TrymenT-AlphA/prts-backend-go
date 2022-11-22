@@ -11,5 +11,5 @@ type Item struct {
 	ObtainApproach string
 	ClassifyType   string
 	Type           string
-	Drops          []Drop
+	Drops          []Drop `gorm:"foreignKey:ItemID"`
 }

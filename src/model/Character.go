@@ -1,5 +1,7 @@
 package model
 
+import "database/sql"
+
 type Character struct {
 	ID                          string `gorm:"primaryKey"`
 	Name                        string
@@ -27,9 +29,9 @@ type Character struct {
 	AllSkillLvlupList           string
 	PotentialList               string
 	Token                       *Character
-	TokenID                     string `gorm:"index:unique"`
-	KeyFrameList                []CharacterInstance
-	BuildingSkillList           []C_BS
-	SkillList                   []C_S
-	TalentList                  []Talent
+	TokenID                     sql.NullString      `gorm:"unique"`
+	CharacterInstances          []CharacterInstance `gorm:"foreignKey:CharacterID"`
+	BuildingSkills              []C_BS              `gorm:"foreignKey:CharacterID"`
+	Skills                      []C_S               `gorm:"foreignKey:CharacterID"`
+	Talents                     []Talent            `gorm:"foreignKey:CharacterID"`
 }

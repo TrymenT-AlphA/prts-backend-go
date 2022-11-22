@@ -1,6 +1,7 @@
 package util
 
 import (
+	"database/sql"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -56,20 +57,32 @@ func PrtsBuildCharacter(db *gorm.DB) error {
 		character.SubProfessionID = string(fjValue.GetStringBytes("SubProfessionID"))
 		character.AllSkillLvlupList = string(fjValue.GetStringBytes("AllSkillLvlupList"))
 		character.PotentialList = string(fjValue.GetStringBytes("PotentialList"))
-		character.TokenID = string(fjValue.GetStringBytes("TokenID"))
+		tokenIDString := string(fjValue.GetStringBytes("TokenID"))
+		if tokenIDString == "" {
+			character.TokenID = sql.NullString{String: tokenIDString, Valid: false}
+		} else {
+			character.TokenID = sql.NullString{String: tokenIDString, Valid: true}
+		}
 		characters = append(characters, character)
 	}
 	linq.From(characters).Sort(func(i interface{}, j interface{}) bool {
-		if i.(model.Character).TokenID == fastjson.TypeNull.String() {
-			return false
-		} else if j.(model.Character).TokenID == fastjson.TypeNull.String() {
+		if !i.(model.Character).TokenID.Valid {
 			return true
-		} else {
+		} else if !j.(model.Character).TokenID.Valid {
 			return false
+		} else {
+			return true
 		}
-	})
-	if err = db.Table("character").Clauses(clause.OnConflict{UpdateAll: true}).Create(&characters).Error; err != nil {
+	}).ToSlice(&characters)
+
+	err = db.
+		Table("character").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&characters).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

@@ -30,7 +30,6 @@ func PrtsBuildCharacterInstance(db *gorm.DB) error {
 	var characterInstances []model.CharacterInstance
 	for _, fjValue := range fjValues {
 		var characterInstance model.CharacterInstance
-		characterInstances = append(characterInstances, characterInstance)
 		characterInstance.CharacterID = string(fjValue.GetStringBytes("CharacterID"))
 		characterInstance.Phase = fjValue.GetInt("Phase")
 		characterInstance.Level = fjValue.GetInt("Level")
@@ -60,8 +59,15 @@ func PrtsBuildCharacterInstance(db *gorm.DB) error {
 		characterInstance.EvolveCost = string(fjValue.GetStringBytes("EvolveCost"))
 		characterInstances = append(characterInstances, characterInstance)
 	}
-	if err = db.Table("characterinstance").Clauses(clause.OnConflict{UpdateAll: true}).CreateInBatches(&characterInstances, 100).Error; err != nil {
+
+	err = db.
+		Table("characterinstance").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		CreateInBatches(&characterInstances, 500).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

@@ -58,8 +58,21 @@ func PrtsBuildDrop(db *gorm.DB) error {
 		drop.UpdateAt = time.Now()
 		drops = append(drops, drop)
 	}
-	if err = db.Table("drop").Clauses(clause.OnConflict{UpdateAll: true}).Create(&drops).Error; err != nil {
+	//! for test use, ignore some bad data
+	// for _, drop := range drops {
+	// 	if err = db.Table("drop").Clauses(clause.OnConflict{UpdateAll: true}).Create(&drop).Error; err != nil {
+	// 		log.Print(err) // ignore some bad data
+	// 	}
+	// }
+
+	err = db.
+		Table("drop").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&drops).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

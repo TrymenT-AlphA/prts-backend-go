@@ -19,5 +19,5 @@ type EnemyInstance struct {
 	SleepImmune     bool
 	FrozenImmune    bool
 	LevitateImmune  bool
-	Stages          []EI_S
+	Stages          []EI_S `gorm:"foreignKey:EnemyInstanceEnemyID,EnemyInstanceLevel"`
 }

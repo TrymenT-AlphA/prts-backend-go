@@ -36,8 +36,15 @@ func PrtsBuildC_BS(db *gorm.DB) error {
 		c_bs.Level = fjValue.GetInt("Level")
 		c_bss = append(c_bss, c_bs)
 	}
-	if err = db.Table("c_bs").Clauses(clause.OnConflict{UpdateAll: true}).Create(&c_bss).Error; err != nil {
+
+	err = db.
+		Table("c_bs").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&c_bss).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

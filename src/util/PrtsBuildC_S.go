@@ -35,8 +35,15 @@ func PrtsBuildC_S(db *gorm.DB) error {
 		c_s.LvlupCostCond = string(fjValue.GetStringBytes("LvlupCostCond"))
 		c_ss = append(c_ss, c_s)
 	}
-	if err = db.Table("c_s").Clauses(clause.OnConflict{UpdateAll: true}).Create(&c_ss).Error; err != nil {
+
+	err = db.
+		Table("c_s").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&c_ss).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

@@ -44,8 +44,15 @@ func PrtsBuildSkillInstance(db *gorm.DB) error {
 		skillInstance.Duration = fjValue.GetInt("Duration")
 		skillInstances = append(skillInstances, skillInstance)
 	}
-	if err = db.Table("skillinstance").Clauses(clause.OnConflict{UpdateAll: true}).CreateInBatches(&skillInstances,100).Error; err != nil {
+
+	err = db.
+		Table("skillinstance").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		CreateInBatches(&skillInstances, 100).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

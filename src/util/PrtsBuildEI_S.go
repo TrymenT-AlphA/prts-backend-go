@@ -30,13 +30,26 @@ func PrtsBuildEI_S(db *gorm.DB) error {
 	var ei_ss []model.EI_S
 	for _, fjValue := range fjValues {
 		var ei_s model.EI_S
-		ei_s.EnemyID = string(fjValue.GetStringBytes("EnemyID"))
+		ei_s.EnemyInstanceEnemyID = string(fjValue.GetStringBytes("EnemyID"))
 		ei_s.EnemyInstanceLevel = fjValue.GetInt("EnemyInstanceLevel")
 		ei_s.StageID = string(fjValue.GetStringBytes("StageID"))
 		ei_ss = append(ei_ss, ei_s)
 	}
-	if err = db.Table("ei_s").Clauses(clause.OnConflict{UpdateAll: true}).Create(&ei_ss).Error; err != nil {
+	//! for test use, ignore some bad data
+	// for _, ei_s := range ei_ss {
+	// 	if err = db.Table("ei_s").Clauses(clause.OnConflict{UpdateAll: true}).Create(&ei_s).Error; err != nil {
+	// 		log.Print(err) // ignore some bad data
+	// 	}
+	// }
+
+	err = db.
+		Table("ei_s").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&ei_ss).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

@@ -42,8 +42,15 @@ func PrtsBuildItem(db *gorm.DB) error {
 		item.Type = string(fjValue.GetStringBytes("Type"))
 		items = append(items, item)
 	}
-	if err = db.Table("item").Clauses(clause.OnConflict{UpdateAll: true}).Create(&items).Error; err != nil {
+
+	err = db.
+		Table("item").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&items).
+		Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }

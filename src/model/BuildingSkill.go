@@ -8,5 +8,5 @@ type BuildingSkill struct {
 	Category    string
 	RoomType    string
 	Description string
-	Characters  []C_BS
+	Characters  []C_BS `gorm:"foreignKey:BuildingSkillID"`
 }

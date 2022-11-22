@@ -39,8 +39,14 @@ func PrtsBuildBuildingSkill(db *gorm.DB) error {
 		buildingSkill.Description = string(fjValue.GetStringBytes("Description"))
 		buildingSkills = append(buildingSkills, buildingSkill)
 	}
-	if err = db.Table("buildingskill").Clauses(clause.OnConflict{UpdateAll: true}).Create(&buildingSkills).Error; err != nil {
+
+	err = db.
+		Table("buildingskill").
+		Clauses(clause.OnConflict{UpdateAll: true}).
+		Create(&buildingSkills).Error
+	if err != nil {
 		return err
 	}
+
 	return nil
 }
