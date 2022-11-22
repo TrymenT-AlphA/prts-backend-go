@@ -8,6 +8,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildTalent(db *gorm.DB) error {
@@ -39,6 +40,8 @@ func PrtsBuildTalent(db *gorm.DB) error {
 		talent.CharacterID = string(fjValue.GetStringBytes("CharacterID"))
 		talents = append(talents, talent)
 	}
-	db.Create(&talents)
+	if err = db.Table("talent").Clauses(clause.OnConflict{UpdateAll: true}).Create(&talents).Error; err != nil {
+		return err
+	}
 	return nil
 }

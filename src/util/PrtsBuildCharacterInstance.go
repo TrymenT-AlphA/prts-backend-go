@@ -8,6 +8,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildCharacterInstance(db *gorm.DB) error {
@@ -57,7 +58,10 @@ func PrtsBuildCharacterInstance(db *gorm.DB) error {
 		characterInstance.FrozenImmune = fjValue.GetBool("FrozenImmune")
 		characterInstance.LevitateImmune = fjValue.GetBool("LevitateImmune")
 		characterInstance.EvolveCost = string(fjValue.GetStringBytes("EvolveCost"))
+		characterInstances = append(characterInstances, characterInstance)
 	}
-	db.Create(&characterInstances)
+	if err = db.Table("characterinstance").Clauses(clause.OnConflict{UpdateAll: true}).CreateInBatches(&characterInstances, 100).Error; err != nil {
+		return err
+	}
 	return nil
 }

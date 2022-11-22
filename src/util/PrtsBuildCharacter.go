@@ -9,6 +9,7 @@ import (
 	"github.com/ahmetb/go-linq/v3"
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildCharacter(db *gorm.DB) error {
@@ -67,6 +68,8 @@ func PrtsBuildCharacter(db *gorm.DB) error {
 			return false
 		}
 	})
-	db.Create(&characters)
+	if err = db.Table("character").Clauses(clause.OnConflict{UpdateAll: true}).Create(&characters).Error; err != nil {
+		return err
+	}
 	return nil
 }

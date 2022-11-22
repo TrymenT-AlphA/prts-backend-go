@@ -65,7 +65,7 @@ func PrtsBuildStage(db *gorm.DB) error {
 			return true
 		}
 	}).ToSlice(&stages)
-	if err = db.Table("stages").Clauses(clause.OnConflict{UpdateAll: true}).Create(&stages).Error; err != nil {
+	if err = db.Table("stage").Clauses(clause.OnConflict{UpdateAll: true}).Create(&stages).Error; err != nil {
 		return err
 	}
 	return nil

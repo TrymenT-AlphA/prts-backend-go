@@ -1,6 +1,9 @@
 package model
 
-import "time"
+import (
+	"database/sql"
+	"time"
+)
 
 type Drop struct {
 	Item     Item
@@ -11,6 +14,6 @@ type Drop struct {
 	Quantity int
 	StdDev   float64
 	Start    time.Time
-	End      time.Time
+	End      sql.NullTime
 	UpdateAt time.Time
 }

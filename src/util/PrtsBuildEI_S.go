@@ -35,7 +35,7 @@ func PrtsBuildEI_S(db *gorm.DB) error {
 		ei_s.StageID = string(fjValue.GetStringBytes("StageID"))
 		ei_ss = append(ei_ss, ei_s)
 	}
-	if err = db.Table("ei__s").Clauses(clause.OnConflict{UpdateAll: true}).Create(&ei_ss).Error; err != nil {
+	if err = db.Table("ei_s").Clauses(clause.OnConflict{UpdateAll: true}).Create(&ei_ss).Error; err != nil {
 		return err
 	}
 	return nil

@@ -1,6 +1,7 @@
 package util
 
 import (
+	"database/sql"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -9,6 +10,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildDrop(db *gorm.DB) error {
@@ -38,15 +40,26 @@ func PrtsBuildDrop(db *gorm.DB) error {
 		drop.StdDev = fjValue.GetFloat64("StdDev")
 		drop.Start, err = time.Parse(timeLayout, string(fjValue.GetStringBytes("Start")))
 		if err != nil {
-			return nil
+			return err
 		}
-		drop.End, err = time.Parse(timeLayout, string(fjValue.GetStringBytes("End")))
+		endString := string(fjValue.GetStringBytes("End"))
+		if endString == "" {
+			drop.End = sql.NullTime{Time: time.Now(), Valid: false}
+		} else {
+			endTime, err := time.Parse(timeLayout, string(fjValue.GetStringBytes("End")))
+			if err != nil {
+				return err
+			}
+			drop.End = sql.NullTime{Time: endTime, Valid: true}
+		}
 		if err != nil {
-			return nil
+			return err
 		}
 		drop.UpdateAt = time.Now()
 		drops = append(drops, drop)
 	}
-	db.Create(&drops)
+	if err = db.Table("drop").Clauses(clause.OnConflict{UpdateAll: true}).Create(&drops).Error; err != nil {
+		return err
+	}
 	return nil
 }

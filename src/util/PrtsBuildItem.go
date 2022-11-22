@@ -8,6 +8,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildItem(db *gorm.DB) error {
@@ -41,6 +42,8 @@ func PrtsBuildItem(db *gorm.DB) error {
 		item.Type = string(fjValue.GetStringBytes("Type"))
 		items = append(items, item)
 	}
-	db.Create(&items)
+	if err = db.Table("item").Clauses(clause.OnConflict{UpdateAll: true}).Create(&items).Error; err != nil {
+		return err
+	}
 	return nil
 }

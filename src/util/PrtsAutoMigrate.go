@@ -18,6 +18,7 @@ func PrtsAutoMigrate(db *gorm.DB) error {
 		&model.CharacterInstance{},
 		&model.BuildingSkill{},
 		&model.C_BS{},
+		&model.Talent{},
 		&model.Skill{},
 		&model.SkillInstance{},
 		&model.C_S{},

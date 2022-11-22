@@ -50,7 +50,7 @@ func PrtsBuildEnemyInstance(db *gorm.DB) error {
 		enemyInstance.LevitateImmune = fjValue.GetBool("LevitateImmune")
 		enemyInstances = append(enemyInstances, enemyInstance)
 	}
-	if err = db.Table("enemy_instances").Clauses(clause.OnConflict{UpdateAll: true}).Create(&enemyInstances).Error; err != nil {
+	if err = db.Table("enemyinstance").Clauses(clause.OnConflict{UpdateAll: true}).Create(&enemyInstances).Error; err != nil {
 		return err
 	}
 	return nil

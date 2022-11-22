@@ -8,6 +8,7 @@ import (
 
 	"github.com/valyala/fastjson"
 	"gorm.io/gorm"
+	"gorm.io/gorm/clause"
 )
 
 func PrtsBuildC_BS(db *gorm.DB) error {
@@ -35,6 +36,8 @@ func PrtsBuildC_BS(db *gorm.DB) error {
 		c_bs.Level = fjValue.GetInt("Level")
 		c_bss = append(c_bss, c_bs)
 	}
-	db.Create(&c_bss)
+	if err = db.Table("c_bs").Clauses(clause.OnConflict{UpdateAll: true}).Create(&c_bss).Error; err != nil {
+		return err
+	}
 	return nil
 }
