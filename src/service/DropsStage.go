@@ -2,7 +2,7 @@ package service
 
 import "prts-backend/src/model"
 
-func ByStage(StageID string) model.Stage {
+func DropsStage(StageID string) model.Stage {
 	var stage model.Stage
 	db.
 		Model(&model.Stage{}).

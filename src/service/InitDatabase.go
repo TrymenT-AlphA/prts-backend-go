@@ -14,7 +14,7 @@ import (
 
 var db *gorm.DB = nil
 
-func InitDatabase() error {
+func InitDatabase(useBuild bool) error {
 	if db != nil {
 		return nil
 	}
@@ -38,17 +38,19 @@ func InitDatabase() error {
 		return err
 	}
 
-	err = util.PrtsAutoMigrate(db)
-	if err != nil {
-		log.Fatal(err)
-	} else {
-		log.Print("[SUCCESS] auto migrate database")
-	}
-	err = util.PrtsAutoBuild(db)
-	if err != nil {
-		log.Fatal(err)
-	} else {
-		log.Print("[SUCCESS] auto build table data")
+	if useBuild {
+		err = util.PrtsAutoMigrate(db)
+		if err != nil {
+			log.Fatal(err)
+		} else {
+			log.Print("[SUCCESS] auto migrate database")
+		}
+		err = util.PrtsAutoBuild(db)
+		if err != nil {
+			log.Fatal(err)
+		} else {
+			log.Print("[SUCCESS] auto build table data")
+		}
 	}
 
 	return nil
