@@ -3,5 +3,6 @@ package main
 import "prts-backend/src/server"
 
 func main() {
-	server.Prts(":3001")
+	var port = ":3001"
+	server.Run(&port, nil)
 }
