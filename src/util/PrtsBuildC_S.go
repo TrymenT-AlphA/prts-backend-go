@@ -37,7 +37,7 @@ func PrtsBuildC_S(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("c_s").
+		Table("prts_c_s").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&c_ss).
 		Error

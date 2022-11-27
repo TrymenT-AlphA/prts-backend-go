@@ -42,7 +42,7 @@ func PrtsBuildTalent(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("talent").
+		Table("prts_talent").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&talents).
 		Error

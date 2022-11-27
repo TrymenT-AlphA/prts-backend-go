@@ -76,7 +76,7 @@ func PrtsBuildCharacter(db *gorm.DB) error {
 	}).ToSlice(&characters)
 
 	err = db.
-		Table("character").
+		Table("prts_character").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&characters).
 		Error

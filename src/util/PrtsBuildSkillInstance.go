@@ -46,7 +46,7 @@ func PrtsBuildSkillInstance(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("skillinstance").
+		Table("prts_skillinstance").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		CreateInBatches(&skillInstances, 100).
 		Error

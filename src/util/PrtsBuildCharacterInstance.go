@@ -61,7 +61,7 @@ func PrtsBuildCharacterInstance(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("characterinstance").
+		Table("prts_characterinstance").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		CreateInBatches(&characterInstances, 500).
 		Error

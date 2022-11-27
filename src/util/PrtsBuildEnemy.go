@@ -48,7 +48,7 @@ func PrtsBuildEnemy(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("enemy").
+		Table("prts_enemy").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&enemies).
 		Error

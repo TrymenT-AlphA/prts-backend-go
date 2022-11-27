@@ -44,7 +44,7 @@ func PrtsBuildItem(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("item").
+		Table("prts_item").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&items).
 		Error

@@ -66,7 +66,7 @@ func PrtsBuildDrop(db *gorm.DB) error {
 	// }
 
 	err = db.
-		Table("drop").
+		Table("prts_drop").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&drops).
 		Error

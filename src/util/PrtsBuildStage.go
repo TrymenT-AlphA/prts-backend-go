@@ -67,7 +67,7 @@ func PrtsBuildStage(db *gorm.DB) error {
 	}).ToSlice(&stages)
 
 	err = db.
-		Table("stage").
+		Table("prts_stage").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&stages).
 		Error

@@ -43,7 +43,7 @@ func PrtsBuildEI_S(db *gorm.DB) error {
 	// }
 
 	err = db.
-		Table("ei_s").
+		Table("prts_ei_s").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&ei_ss).
 		Error

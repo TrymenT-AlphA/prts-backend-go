@@ -41,7 +41,7 @@ func PrtsBuildBuildingSkill(db *gorm.DB) error {
 	}
 
 	err = db.
-		Table("buildingskill").
+		Table("prts_buildingskill").
 		Clauses(clause.OnConflict{UpdateAll: true}).
 		Create(&buildingSkills).Error
 	if err != nil {
