@@ -11,12 +11,20 @@ import (
 
 func Run(port *string, config *fiber.Config) {
 
-	err := service.InitDatabase(false)
-	if err != nil {
-		log.Fatal(err)
+	if !fiber.IsChild() {
+		err := service.InitDatabase(true)
+		if err != nil {
+			log.Fatal(err)
+		}
+	} else {
+		err := service.InitDatabase(false)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	var app *fiber.App
+
 	if config != nil {
 		app = fiber.New(*config)
 	} else {
@@ -106,4 +114,5 @@ func Run(port *string, config *fiber.Config) {
 	} else {
 		app.Listen(":3000")
 	}
+
 }

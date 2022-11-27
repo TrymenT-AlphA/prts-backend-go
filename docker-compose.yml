@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  server:
+    container_name: server
+    restart: always
+    build: .
+    ports:
+      - 3001:3000
+    depends_on:
+      - database
+  database:
+    container_name: database
+    restart: always
+    image: mysql
+    ports:
+      - 3306:3306
+    command:
+      [
+        "mysqld",
+        "--default-authentication-plugin=mysql_native_password"
+      ]
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_USER=aliceremake
+      - MYSQL_PASSWORD=123456
+      - MYSQL_DATABASE=prts-go

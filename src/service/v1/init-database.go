@@ -29,7 +29,7 @@ func InitDatabase(useBuild bool) error {
 
 	db, err = gorm.Open(mysql.Open(string(dsn)), &gorm.Config{
 		NamingStrategy: schema.NamingStrategy{
-			TablePrefix: "prts_",
+			TablePrefix:   "prts_",
 			SingularTable: true,
 			NoLowerCase:   true,
 		},
@@ -40,13 +40,13 @@ func InitDatabase(useBuild bool) error {
 	}
 
 	if useBuild {
-		err = util.PrtsAutoMigrate(db)
+		err = util.AutoMigrate(db)
 		if err != nil {
 			log.Fatal(err)
 		} else {
 			log.Print("[SUCCESS] auto migrate database")
 		}
-		err = util.PrtsAutoBuild(db)
+		err = util.AutoBuild(db)
 		if err != nil {
 			log.Fatal(err)
 		} else {
