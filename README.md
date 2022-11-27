@@ -1,17 +1,16 @@
-package server
+# prts-backend
+prts-backend is a REST style api using golang
 
-import (
-	"log"
-	"prts-backend/src/service/v1"
+## First
 
-	"github.com/gofiber/fiber/v2"
-	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/gofiber/fiber/v2/middleware/recover"
-)
-
+```go
+//! First Run using the following config to migrate and build mysql tables
+//! err := service.InitDatabase(true)
+//! Prefork:       false
+// src/server/run.go > func Run
 func Run(port *string, config *fiber.Config) {
 
-	err := service.InitDatabase(false)
+	err := service.InitDatabase(true) //!
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -21,13 +20,58 @@ func Run(port *string, config *fiber.Config) {
 		app = fiber.New(*config)
 	} else {
 		app = fiber.New(fiber.Config{
-			Prefork:       true,
+			Prefork:       false, //!
 			CaseSensitive: false,
 			StrictRouting: false,
 			ServerHeader:  "prts-backend powered by fiber",
 			AppName:       "prts-backend v1",
 		})
 	}
+
+    ...
+
+}
+```
+
+## Second
+
+```go
+//! Then you can disable migrate and enable prefork
+//! err := service.InitDatabase(false)
+//! Prefork:       true
+// src/server/run.go > func Run
+func Run(port *string, config *fiber.Config) {
+
+	err := service.InitDatabase(false) //!
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var app *fiber.App
+	if config != nil {
+		app = fiber.New(*config)
+	} else {
+		app = fiber.New(fiber.Config{
+			Prefork:       true, //!
+			CaseSensitive: false,
+			StrictRouting: false,
+			ServerHeader:  "prts-backend powered by fiber",
+			AppName:       "prts-backend v1",
+		})
+	}
+
+    ...
+
+}
+```
+
+## API
+
+see /src/server/run.go > func Run
+```go
+func Run(port *string, config *fiber.Config) {
+
+    ...
 
 	app.Use(cors.New())
 
@@ -101,9 +145,7 @@ func Run(port *string, config *fiber.Config) {
 		return c.JSON(service.DropsStage(c.Params("id")))
 	})
 
-	if port != nil {
-		app.Listen(*port)
-	} else {
-		app.Listen(":3000")
-	}
+    ...
+
 }
+```
