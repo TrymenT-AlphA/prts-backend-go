@@ -28,6 +28,7 @@ func InitDatabase(useBuild bool) error {
 	}
 
 	db, err = gorm.Open(mysql.Open(string(dsn)), &gorm.Config{
+		CreateBatchSize: 500,
 		NamingStrategy: schema.NamingStrategy{
 			TablePrefix:   "prts_",
 			SingularTable: true,

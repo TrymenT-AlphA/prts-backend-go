@@ -18,6 +18,7 @@ RUN go build -o ./dist/prts-backend
 
 WORKDIR /build/dist
 
-RUN apt-get -q update && apt-get -qy install netcat
+RUN apk add --no-cache libc6-compat tini
+ENTRYPOINT [ "/sbin/tini", "--" ]
 
-CMD [ "sh", "-c", "", "./prts-backend" ]
+CMD [ "./prts-backend" ]

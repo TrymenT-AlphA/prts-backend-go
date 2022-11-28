@@ -63,7 +63,7 @@ func BuildCharacterInstance(db *gorm.DB) error {
 	err = db.
 		Model(&model.CharacterInstance{}).
 		Clauses(clause.OnConflict{UpdateAll: true}).
-		CreateInBatches(&characterInstances, 500).
+		Create(&characterInstances).
 		Error
 	if err != nil {
 		return err

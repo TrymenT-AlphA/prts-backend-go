@@ -48,7 +48,7 @@ func BuildSkillInstance(db *gorm.DB) error {
 	err = db.
 		Model(&model.SkillInstance{}).
 		Clauses(clause.OnConflict{UpdateAll: true}).
-		CreateInBatches(&skillInstances, 100).
+		Create(&skillInstances).
 		Error
 	if err != nil {
 		return err
