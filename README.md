@@ -1,68 +1,23 @@
 # prts-backend
 prts-backend is a REST style api using golang
 
-## First
+## ADD YOUR ENV
 
-```go
-//! First Run using the following config to migrate and build mysql tables
-//! err := service.InitDatabase(true)
-//! Prefork:       false
-// src/server/run.go > func Run
-func Run(port *string, config *fiber.Config) {
-
-	err := service.InitDatabase(true) //!
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	var app *fiber.App
-	if config != nil {
-		app = fiber.New(*config)
-	} else {
-		app = fiber.New(fiber.Config{
-			Prefork:       false, //!
-			CaseSensitive: false,
-			StrictRouting: false,
-			ServerHeader:  "prts-backend powered by fiber",
-			AppName:       "prts-backend v1",
-		})
-	}
-
-    ...
-
-}
+```.env
+/.env
+<user>:<pwd>@tcp(<host>:<port>)/prts-go?charset=utf8mb4&parseTime=True&loc=Local
 ```
 
-## Second
+## BUILD && RUN (USING DOCKER RECOMANDED)
 
-```go
-//! Then you can disable migrate and enable prefork
-//! err := service.InitDatabase(false)
-//! Prefork:       true
-// src/server/run.go > func Run
-func Run(port *string, config *fiber.Config) {
+```cmd
+docker compose --build up
+```
 
-	err := service.InitDatabase(false) //!
-	if err != nil {
-		log.Fatal(err)
-	}
+## BUILD && RUN
 
-	var app *fiber.App
-	if config != nil {
-		app = fiber.New(*config)
-	} else {
-		app = fiber.New(fiber.Config{
-			Prefork:       true, //!
-			CaseSensitive: false,
-			StrictRouting: false,
-			ServerHeader:  "prts-backend powered by fiber",
-			AppName:       "prts-backend v1",
-		})
-	}
-
-    ...
-
-}
+```cmd
+./cmd/run.bat
 ```
 
 ## API
