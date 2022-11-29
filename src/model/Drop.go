@@ -13,7 +13,7 @@ type Drop struct {
 	Times    int
 	Quantity int
 	StdDev   float64
-	Start    time.Time
+	Start    time.Time `gorm:"primaryKey"`
 	End      sql.NullTime
 	UpdateAt time.Time
 }
