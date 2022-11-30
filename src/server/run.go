@@ -108,15 +108,27 @@ func Run(port *string, config *fiber.Config) {
 
 	//* RESTAPI>V1>DROP>GET
 	v1.Get("/drops", func(c *fiber.Ctx) error {
-		return c.JSON(service.Drops())
+		result, err := service.Drops()
+		if err != nil {
+			return err
+		}
+		return c.JSON(result)
 	})
 
 	v1.Get("/drops/items", func(c *fiber.Ctx) error {
-		return c.JSON(service.DropsItems())
+		result, err := service.DropsItems()
+		if err != nil {
+			return err
+		}
+		return c.JSON(result)
 	})
 
 	v1.Get("/drops/stages", func(c *fiber.Ctx) error {
-		return c.JSON(service.DropsStages())
+		result, err := service.DropsStages()
+		if err != nil {
+			return err
+		}
+		return c.JSON(result)
 	})
 
 	v1.Get("/drops/items/:id", func(c *fiber.Ctx) error {

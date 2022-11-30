@@ -7,12 +7,47 @@ import (
 	"gorm.io/gorm"
 )
 
-func Drops() []model.Drop {
-	var result []model.Drop
-	db.
+func Drops() (map[string]interface{}, error) {
+	// var DropsCount int64
+	var TimesSum int64
+	var QuantitySum int64
+	// var ApCostSum int64
+	// err := db.
+	// 	Model(&model.Drop{}).
+	// 	Count(&DropsCount).Error
+	// if err != nil {
+	// 	return nil, err
+	// }
+	err := db.
 		Model(&model.Drop{}).
-		Find(&result)
-	return result
+		Select("SUM(Times)").
+		Limit(1).
+		Find(&TimesSum).Error
+	if err != nil {
+		return nil, err
+	}
+	err = db.
+		Model(&model.Drop{}).
+		Select("SUM(Quantity)").
+		Limit(1).
+		Find(&QuantitySum).Error
+	if err != nil {
+		return nil, err
+	}
+	// err = db.
+	// 	Model(&model.Drop{}).
+	// 	Select("SUM(ApCost)").
+	// 	Limit(1).
+	// 	Find(&QuantitySum).Error
+	// if err != nil {
+	// 	return nil, err
+	// }
+	return map[string]interface{}{
+		// "DropsCount":  DropsCount,
+		"TimesSum":    TimesSum,
+		"QuantitySum": QuantitySum,
+		// "ApCostSum":   ApCostSum,
+	}, nil
 }
 
 func CreateDrop(drop *model.Drop) error {

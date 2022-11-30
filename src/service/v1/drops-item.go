@@ -1,6 +1,8 @@
 package service
 
-import "prts-backend/src/model"
+import (
+	"prts-backend/src/model"
+)
 
 func DropsItem(id string) model.Item {
 	var result model.Item

@@ -1,7 +1,7 @@
 [
   {
     "ItemID": "30031",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 1,
     "StdDev": 0.2575,
@@ -10,7 +10,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 1,
     "StdDev": 0.2575,
@@ -19,7 +19,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 2,
     "StdDev": 0.3499,
@@ -28,7 +28,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -37,7 +37,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -46,7 +46,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -55,7 +55,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -64,7 +64,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -73,7 +73,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act13side_02_perm",
+    "StageID": "act13side_02",
     "Times": 14,
     "Quantity": 8,
     "StdDev": 0.4949,
@@ -487,7 +487,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 6,
     "StdDev": 0,
@@ -496,7 +496,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -505,7 +505,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -514,7 +514,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -523,7 +523,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -532,7 +532,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -541,7 +541,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -550,7 +550,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -559,7 +559,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -568,7 +568,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d3_01_perm",
+    "StageID": "act18d3_01",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -1342,7 +1342,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 12,
     "StdDev": 0.4104,
@@ -1351,7 +1351,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 5,
     "StdDev": 0.2852,
@@ -1360,7 +1360,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 5,
     "StdDev": 0.2852,
@@ -1369,7 +1369,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 7,
     "StdDev": 0.3307,
@@ -1378,7 +1378,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 8,
     "StdDev": 0.35,
@@ -1387,7 +1387,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 69,
     "StdDev": 0.4222,
@@ -1396,7 +1396,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 6,
     "StdDev": 0.3093,
@@ -1405,7 +1405,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 13,
     "StdDev": 0.4222,
@@ -1414,7 +1414,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_01_perm",
+    "StageID": "act11d0_01",
     "Times": 56,
     "Quantity": 0,
     "StdDev": 0,
@@ -1738,7 +1738,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 6,
     "StdDev": 0.1795,
@@ -1747,7 +1747,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 14,
     "StdDev": 0.2678,
@@ -1756,7 +1756,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 50,
     "StdDev": 0.4479,
@@ -1765,7 +1765,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 1,
     "StdDev": 0.0743,
@@ -1774,7 +1774,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 4,
     "StdDev": 0.1474,
@@ -1783,7 +1783,7 @@
   },
   {
     "ItemID": "31054",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 6,
     "StdDev": 0.1795,
@@ -1792,7 +1792,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 77,
     "StdDev": 0.4948,
@@ -1801,7 +1801,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 13,
     "StdDev": 0.2589,
@@ -1810,7 +1810,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 2,
     "StdDev": 0.1048,
@@ -1819,7 +1819,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 10,
     "StdDev": 0.2291,
@@ -1828,7 +1828,7 @@
   },
   {
     "ItemID": "31053",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 45,
     "StdDev": 0.433,
@@ -1837,7 +1837,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_10_perm",
+    "StageID": "act17side_10",
     "Times": 180,
     "Quantity": 1,
     "StdDev": 0.0743,
@@ -2620,7 +2620,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 0,
     "StdDev": 0,
@@ -2629,7 +2629,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 175,
     "StdDev": 0.2923,
@@ -2638,7 +2638,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 299,
     "StdDev": 0.3677,
@@ -2647,7 +2647,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 296,
     "StdDev": 0.3662,
@@ -2656,7 +2656,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 209,
     "StdDev": 0.3162,
@@ -2665,7 +2665,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 237,
     "StdDev": 0.3337,
@@ -2674,7 +2674,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 227,
     "StdDev": 0.3276,
@@ -2683,7 +2683,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 199,
     "StdDev": 0.3094,
@@ -2692,7 +2692,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 936,
     "StdDev": 0.5,
@@ -2701,7 +2701,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act12d0_06_perm",
+    "StageID": "act12d0_06",
     "Times": 1856,
     "Quantity": 214,
     "StdDev": 0.3194,
@@ -3124,7 +3124,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 39,
     "StdDev": 0.2543,
@@ -3133,7 +3133,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 23,
     "StdDev": 0.1983,
@@ -3142,7 +3142,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 0,
     "StdDev": 0,
@@ -3151,7 +3151,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 37,
     "StdDev": 0.2482,
@@ -3160,7 +3160,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 77,
     "StdDev": 0.3441,
@@ -3169,7 +3169,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 24,
     "StdDev": 0.2024,
@@ -3178,7 +3178,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 398,
     "StdDev": 0.454,
@@ -3187,7 +3187,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 40,
     "StdDev": 0.2573,
@@ -3196,7 +3196,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act17side_02_perm",
+    "StageID": "act17side_02",
     "Times": 561,
     "Quantity": 33,
     "StdDev": 0.2353,
@@ -4591,7 +4591,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4600,7 +4600,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4609,7 +4609,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 3,
     "StdDev": 1.5,
@@ -4618,7 +4618,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4627,7 +4627,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4636,7 +4636,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4645,7 +4645,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -4654,7 +4654,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -4663,7 +4663,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_04_perm",
+    "StageID": "act18d0_04",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4672,7 +4672,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -4681,7 +4681,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -4690,7 +4690,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4699,7 +4699,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4708,7 +4708,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4717,7 +4717,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4726,7 +4726,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4735,7 +4735,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4744,7 +4744,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d0_05_perm",
+    "StageID": "act18d0_05",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -4753,7 +4753,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 131,
     "StdDev": 0.2939,
@@ -4762,7 +4762,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 287,
     "StdDev": 0.4067,
@@ -4771,7 +4771,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 481,
     "StdDev": 0.4772,
@@ -4780,7 +4780,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 2,
     "StdDev": 0.0382,
@@ -4789,7 +4789,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 102,
     "StdDev": 0.2623,
@@ -4798,7 +4798,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 45,
     "StdDev": 0.1781,
@@ -4807,7 +4807,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 197,
     "StdDev": 0.3507,
@@ -4816,7 +4816,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 21,
     "StdDev": 0.1228,
@@ -4825,7 +4825,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 18,
     "StdDev": 0.1138,
@@ -4834,7 +4834,7 @@
   },
   {
     "ItemID": "30044",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 40,
     "StdDev": 0.1682,
@@ -4843,7 +4843,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 507,
     "StdDev": 0.4827,
@@ -4852,7 +4852,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act17side_08_perm",
+    "StageID": "act17side_08",
     "Times": 1372,
     "Quantity": 37,
     "StdDev": 0.162,
@@ -5050,7 +5050,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 28,
     "StdDev": 0.1059,
@@ -5059,7 +5059,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 17,
     "StdDev": 0.0827,
@@ -5068,7 +5068,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 0,
     "StdDev": 0,
@@ -5077,7 +5077,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 713,
     "StdDev": 0.4533,
@@ -5086,7 +5086,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 1044,
     "StdDev": 0.494,
@@ -5095,7 +5095,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 18,
     "StdDev": 0.0851,
@@ -5104,7 +5104,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 277,
     "StdDev": 0.3157,
@@ -5113,7 +5113,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 28,
     "StdDev": 0.1059,
@@ -5122,7 +5122,7 @@
   },
   {
     "ItemID": "30084",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 63,
     "StdDev": 0.1577,
@@ -5131,7 +5131,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 32,
     "StdDev": 0.1131,
@@ -5140,7 +5140,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 787,
     "StdDev": 0.466,
@@ -5149,7 +5149,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13d5_08_perm",
+    "StageID": "act13d5_08",
     "Times": 2468,
     "Quantity": 237,
     "StdDev": 0.2946,
@@ -5428,7 +5428,7 @@
   },
   {
     "ItemID": "30084",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 35,
     "StdDev": 0.1915,
@@ -5437,7 +5437,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 1,
     "StdDev": 0.033,
@@ -5446,7 +5446,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 262,
     "StdDev": 0.4516,
@@ -5455,7 +5455,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 293,
     "StdDev": 0.4662,
@@ -5464,7 +5464,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 100,
     "StdDev": 0.3116,
@@ -5473,7 +5473,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 7,
     "StdDev": 0.087,
@@ -5482,7 +5482,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 11,
     "StdDev": 0.1088,
@@ -5491,7 +5491,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 100,
     "StdDev": 0.3116,
@@ -5500,7 +5500,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 21,
     "StdDev": 0.1495,
@@ -5509,7 +5509,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 9,
     "StdDev": 0.0985,
@@ -5518,7 +5518,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 8,
     "StdDev": 0.0929,
@@ -5527,7 +5527,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12side_09_perm",
+    "StageID": "act12side_09",
     "Times": 918,
     "Quantity": 354,
     "StdDev": 0.4867,
@@ -5698,7 +5698,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -5707,7 +5707,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -5716,7 +5716,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -5725,7 +5725,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -5734,7 +5734,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 3,
     "StdDev": 0.6403,
@@ -5743,7 +5743,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -5752,7 +5752,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 27,
     "StdDev": 0.6403,
@@ -5761,7 +5761,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -5770,7 +5770,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12d0_04_perm",
+    "StageID": "act12d0_04",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -5779,7 +5779,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 7,
     "StdDev": 0.4989,
@@ -5788,7 +5788,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 2,
     "StdDev": 0.3399,
@@ -5797,7 +5797,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 2,
     "StdDev": 0.3399,
@@ -5806,7 +5806,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 0,
     "StdDev": 0,
@@ -5815,7 +5815,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 0,
     "StdDev": 0,
@@ -5824,7 +5824,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 32,
     "StdDev": 0.3399,
@@ -5833,7 +5833,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 2,
     "StdDev": 0.3399,
@@ -5842,7 +5842,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 1,
     "StdDev": 0.2494,
@@ -5851,7 +5851,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act16d5_05_perm",
+    "StageID": "act16d5_05",
     "Times": 15,
     "Quantity": 1,
     "StdDev": 0.2494,
@@ -6301,7 +6301,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 72,
     "StdDev": 0.4501,
@@ -6310,7 +6310,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 20,
     "StdDev": 0.2688,
@@ -6319,7 +6319,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 1,
     "StdDev": 0.0625,
@@ -6328,7 +6328,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 112,
     "StdDev": 0.5119,
@@ -6337,7 +6337,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 18,
     "StdDev": 0.2561,
@@ -6346,7 +6346,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 34,
     "StdDev": 0.3399,
@@ -6355,7 +6355,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 6,
     "StdDev": 0.1516,
@@ -6364,7 +6364,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 3,
     "StdDev": 0.1078,
@@ -6373,7 +6373,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 0,
     "StdDev": 0,
@@ -6382,7 +6382,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 91,
     "StdDev": 0.4791,
@@ -6391,7 +6391,7 @@
   },
   {
     "ItemID": "30014",
-    "StageID": "act12side_07_perm",
+    "StageID": "act12side_07",
     "Times": 255,
     "Quantity": 10,
     "StdDev": 0.1941,
@@ -6967,7 +6967,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 299,
     "StdDev": 0.3198,
@@ -6976,7 +6976,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 22,
     "StdDev": 0.0918,
@@ -6985,7 +6985,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 828,
     "StdDev": 0.4666,
@@ -6994,7 +6994,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 795,
     "StdDev": 0.4722,
@@ -7003,7 +7003,7 @@
   },
   {
     "ItemID": "30054",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 67,
     "StdDev": 0.1588,
@@ -7012,7 +7012,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 26,
     "StdDev": 0.0998,
@@ -7021,7 +7021,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 31,
     "StdDev": 0.1088,
@@ -7030,7 +7030,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 0,
     "StdDev": 0,
@@ -7039,7 +7039,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 1073,
     "StdDev": 0.4927,
@@ -7048,7 +7048,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 230,
     "StdDev": 0.2846,
@@ -7057,7 +7057,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act11d0_07_perm",
+    "StageID": "act11d0_07",
     "Times": 2586,
     "Quantity": 45,
     "StdDev": 0.1308,
@@ -7984,7 +7984,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 121,
     "StdDev": 0.4488,
@@ -7993,7 +7993,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 48,
     "StdDev": 0.3139,
@@ -8002,7 +8002,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 30,
     "StdDev": 0.2539,
@@ -8011,7 +8011,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 48,
     "StdDev": 0.314,
@@ -8020,7 +8020,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 896,
     "StdDev": 0.6039,
@@ -8029,7 +8029,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 48,
     "StdDev": 0.3139,
@@ -8038,7 +8038,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 38,
     "StdDev": 0.2829,
@@ -8047,7 +8047,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_05_perm",
+    "StageID": "act9d0_05",
     "Times": 433,
     "Quantity": 0,
     "StdDev": 0,
@@ -9118,7 +9118,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 766,
     "StdDev": 0.2976,
@@ -9127,7 +9127,7 @@
   },
   {
     "ItemID": "30084",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 290,
     "StdDev": 0.1892,
@@ -9136,7 +9136,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 1547,
     "StdDev": 0.3988,
@@ -9145,7 +9145,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 130,
     "StdDev": 0.1281,
@@ -9154,7 +9154,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 694,
     "StdDev": 0.2847,
@@ -9163,7 +9163,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 1020,
     "StdDev": 0.3372,
@@ -9172,7 +9172,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 808,
     "StdDev": 0.3047,
@@ -9181,7 +9181,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 131,
     "StdDev": 0.1285,
@@ -9190,7 +9190,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 2,
     "StdDev": 0.016,
@@ -9199,7 +9199,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 1284,
     "StdDev": 0.3708,
@@ -9208,7 +9208,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 1201,
     "StdDev": 0.361,
@@ -9217,7 +9217,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 109,
     "StdDev": 0.1173,
@@ -9226,7 +9226,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "a003_f04_perm",
+    "StageID": "a003_f04",
     "Times": 7799,
     "Quantity": 2472,
     "StdDev": 0.4765,
@@ -9235,7 +9235,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 290,
     "StdDev": 0.4711,
@@ -9244,7 +9244,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 75,
     "StdDev": 0.2711,
@@ -9253,7 +9253,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 6,
     "StdDev": 0.0797,
@@ -9262,7 +9262,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 386,
     "StdDev": 0.492,
@@ -9271,7 +9271,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 30,
     "StdDev": 0.1758,
@@ -9280,7 +9280,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 9,
     "StdDev": 0.0974,
@@ -9289,7 +9289,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 89,
     "StdDev": 0.2929,
@@ -9298,7 +9298,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 8,
     "StdDev": 0.0919,
@@ -9307,7 +9307,7 @@
   },
   {
     "ItemID": "30054",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 35,
     "StdDev": 0.1894,
@@ -9316,7 +9316,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 323,
     "StdDev": 0.4751,
@@ -9325,7 +9325,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_07_perm",
+    "StageID": "act18d0_07",
     "Times": 939,
     "Quantity": 0,
     "StdDev": 0,
@@ -10873,7 +10873,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 0,
     "StdDev": 0,
@@ -10882,7 +10882,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 60,
     "StdDev": 0.4431,
@@ -10891,7 +10891,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 5,
     "StdDev": 0.2393,
@@ -10900,7 +10900,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 6,
     "StdDev": 0.2604,
@@ -10909,7 +10909,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 11,
     "StdDev": 0.3408,
@@ -10918,7 +10918,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 1,
     "StdDev": 0.1098,
@@ -10927,7 +10927,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 5,
     "StdDev": 0.2393,
@@ -10936,7 +10936,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 9,
     "StdDev": 0.3126,
@@ -10945,7 +10945,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12side_02_perm",
+    "StageID": "act12side_02",
     "Times": 82,
     "Quantity": 3,
     "StdDev": 0.1877,
@@ -11242,7 +11242,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 1,
     "StdDev": 0.0167,
@@ -11251,7 +11251,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 68,
     "StdDev": 0.1367,
@@ -11260,7 +11260,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 1580,
     "StdDev": 0.509,
@@ -11269,7 +11269,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 30,
     "StdDev": 0.0913,
@@ -11278,7 +11278,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 420,
     "StdDev": 0.3223,
@@ -11287,7 +11287,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 49,
     "StdDev": 0.1164,
@@ -11296,7 +11296,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 414,
     "StdDev": 0.3203,
@@ -11305,7 +11305,7 @@
   },
   {
     "ItemID": "30014",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 162,
     "StdDev": 0.2082,
@@ -11314,7 +11314,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 987,
     "StdDev": 0.4473,
@@ -11323,7 +11323,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 1104,
     "StdDev": 0.4623,
@@ -11332,7 +11332,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_10_perm",
+    "StageID": "act16d5_10",
     "Times": 3568,
     "Quantity": 430,
     "StdDev": 0.3256,
@@ -11557,7 +11557,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 3,
     "StdDev": 0.1998,
@@ -11566,7 +11566,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 13,
     "StdDev": 0.3847,
@@ -11575,7 +11575,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 2,
     "StdDev": 0.1643,
@@ -11584,7 +11584,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 5,
     "StdDev": 0.2542,
@@ -11593,7 +11593,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 8,
     "StdDev": 0.3143,
@@ -11602,7 +11602,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 6,
     "StdDev": 0.2764,
@@ -11611,7 +11611,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 2,
     "StdDev": 0.1643,
@@ -11620,7 +11620,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 62,
     "StdDev": 0.5604,
@@ -11629,7 +11629,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 4,
     "StdDev": 0.2291,
@@ -11638,7 +11638,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "a001_01_perm",
+    "StageID": "a001_01",
     "Times": 72,
     "Quantity": 86,
     "StdDev": 0.5436,
@@ -12826,7 +12826,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 453,
     "StdDev": 0.329,
@@ -12835,7 +12835,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 1421,
     "StdDev": 0.4871,
@@ -12844,7 +12844,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 559,
     "StdDev": 0.3594,
@@ -12853,7 +12853,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 356,
     "StdDev": 0.296,
@@ -12862,7 +12862,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 484,
     "StdDev": 0.3385,
@@ -12871,7 +12871,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 365,
     "StdDev": 0.2993,
@@ -12880,7 +12880,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 467,
     "StdDev": 0.3333,
@@ -12889,7 +12889,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 388,
     "StdDev": 0.3076,
@@ -12898,7 +12898,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 596,
     "StdDev": 0.369,
@@ -12907,7 +12907,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_06_perm",
+    "StageID": "act11d0_06",
     "Times": 3668,
     "Quantity": 0,
     "StdDev": 0,
@@ -13582,7 +13582,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13591,7 +13591,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13600,7 +13600,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13609,7 +13609,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13618,7 +13618,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13627,7 +13627,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13636,7 +13636,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 2,
     "StdDev": 0,
@@ -13645,7 +13645,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -13654,7 +13654,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act11d0_02_perm",
+    "StageID": "act11d0_02",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -14113,7 +14113,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 168,
     "StdDev": 0.3633,
@@ -14122,7 +14122,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 173,
     "StdDev": 0.3676,
@@ -14131,7 +14131,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 16,
     "StdDev": 0.1211,
@@ -14140,7 +14140,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 108,
     "StdDev": 0.3007,
@@ -14149,7 +14149,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 13,
     "StdDev": 0.1094,
@@ -14158,7 +14158,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 0,
     "StdDev": 0,
@@ -14167,7 +14167,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 305,
     "StdDev": 0.4591,
@@ -14176,7 +14176,7 @@
   },
   {
     "ItemID": "30044",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 33,
     "StdDev": 0.1726,
@@ -14185,7 +14185,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 188,
     "StdDev": 0.38,
@@ -14194,7 +14194,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 83,
     "StdDev": 0.267,
@@ -14203,7 +14203,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 208,
     "StdDev": 0.3952,
@@ -14212,7 +14212,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 97,
     "StdDev": 0.2866,
@@ -14221,7 +14221,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act15d0_08_perm",
+    "StageID": "act15d0_08",
     "Times": 1074,
     "Quantity": 11,
     "StdDev": 0.1007,
@@ -14374,7 +14374,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 122,
     "StdDev": 0.2847,
@@ -14383,7 +14383,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 638,
     "StdDev": 0.4988,
@@ -14392,7 +14392,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 298,
     "StdDev": 0.4125,
@@ -14401,7 +14401,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 181,
     "StdDev": 0.3385,
@@ -14410,7 +14410,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 286,
     "StdDev": 0.4063,
@@ -14419,7 +14419,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 2,
     "StdDev": 0.0381,
@@ -14428,7 +14428,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 106,
     "StdDev": 0.2671,
@@ -14437,7 +14437,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 179,
     "StdDev": 0.3369,
@@ -14446,7 +14446,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act18d0_06_perm",
+    "StageID": "act18d0_06",
     "Times": 1371,
     "Quantity": 199,
     "StdDev": 0.3522,
@@ -14806,7 +14806,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 0,
     "StdDev": 0,
@@ -14815,7 +14815,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 6,
     "StdDev": 0.3117,
@@ -14824,7 +14824,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 2,
     "StdDev": 0.1872,
@@ -14833,7 +14833,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 2,
     "StdDev": 0.1872,
@@ -14842,7 +14842,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 1,
     "StdDev": 0.1336,
@@ -14851,7 +14851,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 170,
     "StdDev": 0.92,
@@ -14860,7 +14860,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 9,
     "StdDev": 0.3699,
@@ -14869,7 +14869,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 68,
     "StdDev": 0.5032,
@@ -14878,7 +14878,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a001_03_perm",
+    "StageID": "a001_03",
     "Times": 55,
     "Quantity": 11,
     "StdDev": 0.4,
@@ -15850,7 +15850,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 2,
     "StdDev": 0.2619,
@@ -15859,7 +15859,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 6,
     "StdDev": 0.4157,
@@ -15868,7 +15868,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 6,
     "StdDev": 0.4157,
@@ -15877,7 +15877,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 2,
     "StdDev": 0.2619,
@@ -15886,7 +15886,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 0,
     "StdDev": 0,
@@ -15895,7 +15895,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 2,
     "StdDev": 0.2619,
@@ -15904,7 +15904,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 23,
     "StdDev": 0.3552,
@@ -15913,7 +15913,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 0,
     "StdDev": 0,
@@ -15922,7 +15922,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_03_perm",
+    "StageID": "act12side_03",
     "Times": 27,
     "Quantity": 0,
     "StdDev": 0,
@@ -15931,7 +15931,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 22,
     "StdDev": 0.119,
@@ -15940,7 +15940,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 287,
     "StdDev": 0.3903,
@@ -15949,7 +15949,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 147,
     "StdDev": 0.2946,
@@ -15958,7 +15958,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 19,
     "StdDev": 0.1107,
@@ -15967,7 +15967,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 404,
     "StdDev": 0.4407,
@@ -15976,7 +15976,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 31,
     "StdDev": 0.1408,
@@ -15985,7 +15985,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 621,
     "StdDev": 0.491,
@@ -15994,7 +15994,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 0,
     "StdDev": 0,
@@ -16003,7 +16003,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act15d0_03_perm",
+    "StageID": "act15d0_03",
     "Times": 1531,
     "Quantity": 2755,
     "StdDev": 0.4004,
@@ -16489,7 +16489,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 12,
     "StdDev": 0.1292,
@@ -16498,7 +16498,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 1793,
     "StdDev": 0.6619,
@@ -16507,7 +16507,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 18,
     "StdDev": 0.1577,
@@ -16516,7 +16516,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 171,
     "StdDev": 0.4285,
@@ -16525,7 +16525,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 985,
     "StdDev": 0.4975,
@@ -16534,7 +16534,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 132,
     "StdDev": 0.3899,
@@ -16543,7 +16543,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 39,
     "StdDev": 0.2284,
@@ -16552,7 +16552,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 8,
     "StdDev": 0.1059,
@@ -16561,7 +16561,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_04_perm",
+    "StageID": "a001_04",
     "Times": 706,
     "Quantity": 0,
     "StdDev": 0,
@@ -16714,7 +16714,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 84,
     "StdDev": 0.3913,
@@ -16723,7 +16723,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 10,
     "StdDev": 0.1482,
@@ -16732,7 +16732,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 84,
     "StdDev": 0.3913,
@@ -16741,7 +16741,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 5,
     "StdDev": 0.1054,
@@ -16750,7 +16750,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 8,
     "StdDev": 0.1329,
@@ -16759,7 +16759,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 46,
     "StdDev": 0.3044,
@@ -16768,7 +16768,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 29,
     "StdDev": 0.2468,
@@ -16777,7 +16777,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 38,
     "StdDev": 0.2795,
@@ -16786,7 +16786,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 58,
     "StdDev": 0.3367,
@@ -16795,7 +16795,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 0,
     "StdDev": 0,
@@ -16804,7 +16804,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 65,
     "StdDev": 0.3532,
@@ -16813,7 +16813,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 134,
     "StdDev": 0.4684,
@@ -16822,7 +16822,7 @@
   },
   {
     "ItemID": "30044",
-    "StageID": "act12side_08_perm",
+    "StageID": "act12side_08",
     "Times": 445,
     "Quantity": 9,
     "StdDev": 0.1408,
@@ -16975,7 +16975,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -16984,7 +16984,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -16993,7 +16993,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -17002,7 +17002,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -17011,7 +17011,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -17020,7 +17020,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 2,
     "StdDev": 0,
@@ -17029,7 +17029,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -17038,7 +17038,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 0,
     "StdDev": 0,
@@ -17047,7 +17047,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_03_perm",
+    "StageID": "act13d5_03",
     "Times": 1,
     "Quantity": 1,
     "StdDev": 0,
@@ -17056,7 +17056,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 0,
     "StdDev": 0,
@@ -17065,7 +17065,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 7,
     "StdDev": 0.2241,
@@ -17074,7 +17074,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 12,
     "StdDev": 0.2875,
@@ -17083,7 +17083,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 82,
     "StdDev": 0.4851,
@@ -17092,7 +17092,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 13,
     "StdDev": 0.298,
@@ -17101,7 +17101,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 5,
     "StdDev": 0.1909,
@@ -17110,7 +17110,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 19,
     "StdDev": 0.351,
@@ -17119,7 +17119,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 6,
     "StdDev": 0.2083,
@@ -17128,7 +17128,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 6,
     "StdDev": 0.2083,
@@ -17137,7 +17137,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_02_perm",
+    "StageID": "act9d0_02",
     "Times": 132,
     "Quantity": 161,
     "StdDev": 0.432,
@@ -17353,7 +17353,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 1938,
     "StdDev": 0.3229,
@@ -17362,7 +17362,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 2353,
     "StdDev": 0.3506,
@@ -17371,7 +17371,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 3643,
     "StdDev": 0.4157,
@@ -17380,7 +17380,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 2314,
     "StdDev": 0.3481,
@@ -17389,7 +17389,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 1400,
     "StdDev": 0.2795,
@@ -17398,7 +17398,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 3377,
     "StdDev": 0.4044,
@@ -17407,7 +17407,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 7196,
     "StdDev": 0.4967,
@@ -17416,7 +17416,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 1388,
     "StdDev": 0.2783,
@@ -17425,7 +17425,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_05_perm",
+    "StageID": "a001_05",
     "Times": 16399,
     "Quantity": 4,
     "StdDev": 0.0156,
@@ -18019,7 +18019,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18028,7 +18028,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18037,7 +18037,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18046,7 +18046,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18055,7 +18055,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -18064,7 +18064,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18073,7 +18073,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -18082,7 +18082,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -18091,7 +18091,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act18d0_02_perm",
+    "StageID": "act18d0_02",
     "Times": 3,
     "Quantity": 1,
     "StdDev": 0.4714,
@@ -18100,7 +18100,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 3,
     "StdDev": 0.2332,
@@ -18109,7 +18109,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 2,
     "StdDev": 0.1923,
@@ -18118,7 +18118,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 47,
     "StdDev": 0.2948,
@@ -18127,7 +18127,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 9,
     "StdDev": 0.3783,
@@ -18136,7 +18136,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 8,
     "StdDev": 0.3608,
@@ -18145,7 +18145,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 3,
     "StdDev": 0.2331,
@@ -18154,7 +18154,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 2,
     "StdDev": 0.1923,
@@ -18163,7 +18163,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 55,
     "StdDev": 0.4966,
@@ -18172,7 +18172,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 3,
     "StdDev": 0.2331,
@@ -18181,7 +18181,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a003_f01_perm",
+    "StageID": "a003_f01",
     "Times": 52,
     "Quantity": 1,
     "StdDev": 0.1373,
@@ -18433,7 +18433,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18442,7 +18442,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18451,7 +18451,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18460,7 +18460,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18469,7 +18469,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18478,7 +18478,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 5,
     "StdDev": 0,
@@ -18487,7 +18487,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18496,7 +18496,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 4,
     "StdDev": 0.4,
@@ -18505,7 +18505,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18514,7 +18514,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12d0_02_perm",
+    "StageID": "act12d0_02",
     "Times": 5,
     "Quantity": 0,
     "StdDev": 0,
@@ -18658,7 +18658,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 23,
     "StdDev": 0.0973,
@@ -18667,7 +18667,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 26,
     "StdDev": 0.1034,
@@ -18676,7 +18676,7 @@
   },
   {
     "ItemID": "30094",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 80,
     "StdDev": 0.1791,
@@ -18685,7 +18685,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 286,
     "StdDev": 0.3235,
@@ -18694,7 +18694,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 42,
     "StdDev": 0.1309,
@@ -18703,7 +18703,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 616,
     "StdDev": 0.4364,
@@ -18712,7 +18712,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 685,
     "StdDev": 0.4512,
@@ -18721,7 +18721,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 763,
     "StdDev": 0.4653,
@@ -18730,7 +18730,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 256,
     "StdDev": 0.3082,
@@ -18739,7 +18739,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 43,
     "StdDev": 0.1324,
@@ -18748,7 +18748,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 284,
     "StdDev": 0.3225,
@@ -18757,7 +18757,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_08_perm",
+    "StageID": "act11d0_08",
     "Times": 2408,
     "Quantity": 0,
     "StdDev": 0,
@@ -18883,7 +18883,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -18892,7 +18892,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -18901,7 +18901,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 3,
     "StdDev": 0.4583,
@@ -18910,7 +18910,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -18919,7 +18919,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -18928,7 +18928,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -18937,7 +18937,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 2,
     "StdDev": 0.4,
@@ -18946,7 +18946,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -18955,7 +18955,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -18964,7 +18964,7 @@
   },
   {
     "ItemID": "30024",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -18973,7 +18973,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 2,
     "StdDev": 0.4,
@@ -18982,7 +18982,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13side_08_perm",
+    "StageID": "act13side_08",
     "Times": 10,
     "Quantity": 3,
     "StdDev": 0.4583,
@@ -18991,7 +18991,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 0,
     "StdDev": 0,
@@ -19000,7 +19000,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 1,
     "StdDev": 0.2764,
@@ -19009,7 +19009,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 1,
     "StdDev": 0.2764,
@@ -19018,7 +19018,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 0,
     "StdDev": 0,
@@ -19027,7 +19027,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 1,
     "StdDev": 0.2764,
@@ -19036,7 +19036,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 5,
     "StdDev": 0.493,
@@ -19045,7 +19045,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 1,
     "StdDev": 0.2764,
@@ -19054,7 +19054,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 3,
     "StdDev": 0.433,
@@ -19063,7 +19063,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 0,
     "StdDev": 0,
@@ -19072,7 +19072,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act13side_07_perm",
+    "StageID": "act13side_07",
     "Times": 12,
     "Quantity": 26,
     "StdDev": 0.5528,
@@ -19297,7 +19297,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 6,
     "StdDev": 0.1488,
@@ -19306,7 +19306,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 26,
     "StdDev": 0.2975,
@@ -19315,7 +19315,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 4,
     "StdDev": 0.1219,
@@ -19324,7 +19324,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 24,
     "StdDev": 0.287,
@@ -19333,7 +19333,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 29,
     "StdDev": 0.3122,
@@ -19342,7 +19342,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 32,
     "StdDev": 0.3258,
@@ -19351,7 +19351,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 2,
     "StdDev": 0.0865,
@@ -19360,7 +19360,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 47,
     "StdDev": 0.382,
@@ -19369,7 +19369,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 0,
     "StdDev": 0,
@@ -19378,7 +19378,7 @@
   },
   {
     "ItemID": "30034",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 10,
     "StdDev": 0.1906,
@@ -19387,7 +19387,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 50,
     "StdDev": 0.3913,
@@ -19396,7 +19396,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 97,
     "StdDev": 0.4817,
@@ -19405,7 +19405,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 44,
     "StdDev": 0.3721,
@@ -19414,7 +19414,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act13d5_07_perm",
+    "StageID": "act13d5_07",
     "Times": 265,
     "Quantity": 1,
     "StdDev": 0.0613,
@@ -19702,7 +19702,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 2,
     "StdDev": 0.3143,
@@ -19711,7 +19711,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 0,
     "StdDev": 0,
@@ -19720,7 +19720,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 2,
     "StdDev": 0.3143,
@@ -19729,7 +19729,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 2,
     "StdDev": 0.3143,
@@ -19738,7 +19738,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 4,
     "StdDev": 0.4157,
@@ -19747,7 +19747,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 6,
     "StdDev": 0.4714,
@@ -19756,7 +19756,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 14,
     "StdDev": 0.4157,
@@ -19765,7 +19765,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 1,
     "StdDev": 0.2291,
@@ -19774,7 +19774,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act15d0_02_perm",
+    "StageID": "act15d0_02",
     "Times": 18,
     "Quantity": 1,
     "StdDev": 0.2291,
@@ -19945,7 +19945,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 809,
     "StdDev": 0.3315,
@@ -19954,7 +19954,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 708,
     "StdDev": 0.3129,
@@ -19963,7 +19963,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 1000,
     "StdDev": 0.3623,
@@ -19972,7 +19972,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 988,
     "StdDev": 0.3605,
@@ -19981,7 +19981,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 795,
     "StdDev": 0.329,
@@ -19990,7 +19990,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 3,
     "StdDev": 0.0216,
@@ -19999,7 +19999,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 688,
     "StdDev": 0.3091,
@@ -20008,7 +20008,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 2067,
     "StdDev": 0.4669,
@@ -20017,7 +20017,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 641,
     "StdDev": 0.3,
@@ -20026,7 +20026,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "a001_06_perm",
+    "StageID": "a001_06",
     "Times": 6436,
     "Quantity": 844,
     "StdDev": 0.3375,
@@ -20080,7 +20080,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20089,7 +20089,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20098,7 +20098,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20107,7 +20107,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 1,
     "StdDev": 0.4714,
@@ -20116,7 +20116,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20125,7 +20125,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 4,
     "StdDev": 0.4714,
@@ -20134,7 +20134,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20143,7 +20143,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -20152,7 +20152,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_06_perm",
+    "StageID": "act17side_06",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -20800,7 +20800,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -20809,7 +20809,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 18,
     "StdDev": 0.3499,
@@ -20818,7 +20818,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -20827,7 +20827,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -20836,7 +20836,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 2,
     "StdDev": 0.2935,
@@ -20845,7 +20845,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -20854,7 +20854,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 17,
     "StdDev": 0.3927,
@@ -20863,7 +20863,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -20872,7 +20872,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 1,
     "StdDev": 0.213,
@@ -20881,7 +20881,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12d0_01_perm",
+    "StageID": "act12d0_01",
     "Times": 21,
     "Quantity": 0,
     "StdDev": 0,
@@ -21070,7 +21070,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 6,
     "StdDev": 0,
@@ -21079,7 +21079,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 3,
     "StdDev": 0.5,
@@ -21088,7 +21088,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 0,
     "StdDev": 0,
@@ -21097,7 +21097,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 0,
     "StdDev": 0,
@@ -21106,7 +21106,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 0,
     "StdDev": 0,
@@ -21115,7 +21115,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 0,
     "StdDev": 0,
@@ -21124,7 +21124,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 0,
     "StdDev": 0,
@@ -21133,7 +21133,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -21142,7 +21142,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act15d0_05_perm",
+    "StageID": "act15d0_05",
     "Times": 6,
     "Quantity": 1,
     "StdDev": 0.3727,
@@ -21151,7 +21151,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 4,
     "StdDev": 0.4157,
@@ -21160,7 +21160,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 0,
     "StdDev": 0,
@@ -21169,7 +21169,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 0,
     "StdDev": 0,
@@ -21178,7 +21178,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 3,
     "StdDev": 0.3727,
@@ -21187,7 +21187,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 0,
     "StdDev": 0,
@@ -21196,7 +21196,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 0,
     "StdDev": 0,
@@ -21205,7 +21205,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 22,
     "StdDev": 0.5329,
@@ -21214,7 +21214,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 29,
     "StdDev": 0.4875,
@@ -21223,7 +21223,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act9d0_04_perm",
+    "StageID": "act9d0_04",
     "Times": 18,
     "Quantity": 6,
     "StdDev": 0.4714,
@@ -22258,7 +22258,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 2,
     "StdDev": 0.4,
@@ -22267,7 +22267,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -22276,7 +22276,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -22285,7 +22285,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -22294,7 +22294,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -22303,7 +22303,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -22312,7 +22312,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 2,
     "StdDev": 0.4,
@@ -22321,7 +22321,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -22330,7 +22330,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act16d5_02_perm",
+    "StageID": "act16d5_02",
     "Times": 10,
     "Quantity": 6,
     "StdDev": 0.4899,
@@ -22708,7 +22708,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 16,
     "StdDev": 0.2499,
@@ -22717,7 +22717,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 7,
     "StdDev": 0.1686,
@@ -22726,7 +22726,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 0,
     "StdDev": 0,
@@ -22735,7 +22735,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 27,
     "StdDev": 0.3166,
@@ -22744,7 +22744,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 11,
     "StdDev": 0.2095,
@@ -22753,7 +22753,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 18,
     "StdDev": 0.2639,
@@ -22762,7 +22762,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 15,
     "StdDev": 0.2425,
@@ -22771,7 +22771,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 197,
     "StdDev": 0.3806,
@@ -22780,7 +22780,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13side_03_perm",
+    "StageID": "act13side_03",
     "Times": 239,
     "Quantity": 21,
     "StdDev": 0.2831,
@@ -23509,7 +23509,7 @@
   },
   {
     "ItemID": "30064",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 177,
     "StdDev": 0.1546,
@@ -23518,7 +23518,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 1144,
     "StdDev": 0.3652,
@@ -23527,7 +23527,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 87,
     "StdDev": 0.1091,
@@ -23536,7 +23536,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 1265,
     "StdDev": 0.3801,
@@ -23545,7 +23545,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 951,
     "StdDev": 0.3382,
@@ -23554,7 +23554,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 1598,
     "StdDev": 0.4151,
@@ -23563,7 +23563,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 724,
     "StdDev": 0.3003,
@@ -23572,7 +23572,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 1364,
     "StdDev": 0.3914,
@@ -23581,7 +23581,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 125,
     "StdDev": 0.1304,
@@ -23590,7 +23590,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 105,
     "StdDev": 0.1197,
@@ -23599,7 +23599,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 647,
     "StdDev": 0.2856,
@@ -23608,7 +23608,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 711,
     "StdDev": 0.298,
@@ -23617,7 +23617,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 99,
     "StdDev": 0.1163,
@@ -23626,7 +23626,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d3_09_perm",
+    "StageID": "act18d3_09",
     "Times": 7222,
     "Quantity": 2,
     "StdDev": 0.0166,
@@ -23635,7 +23635,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 2,
     "StdDev": 0.3222,
@@ -23644,7 +23644,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 1,
     "StdDev": 0.2353,
@@ -23653,7 +23653,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 1,
     "StdDev": 0.2353,
@@ -23662,7 +23662,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 5,
     "StdDev": 0.4556,
@@ -23671,7 +23671,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 6,
     "StdDev": 0.4779,
@@ -23680,7 +23680,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -23689,7 +23689,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 2,
     "StdDev": 0.3222,
@@ -23698,7 +23698,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -23707,7 +23707,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act16d5_04_perm",
+    "StageID": "act16d5_04",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -24229,7 +24229,7 @@
   },
   {
     "ItemID": "31034",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 51,
     "StdDev": 0.225,
@@ -24238,7 +24238,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 328,
     "StdDev": 0.4751,
@@ -24247,7 +24247,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 10,
     "StdDev": 0.1019,
@@ -24256,7 +24256,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 97,
     "StdDev": 0.3024,
@@ -24265,7 +24265,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 1,
     "StdDev": 0.0324,
@@ -24274,7 +24274,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 263,
     "StdDev": 0.447,
@@ -24283,7 +24283,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 10,
     "StdDev": 0.1019,
@@ -24292,7 +24292,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 13,
     "StdDev": 0.116,
@@ -24301,7 +24301,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 323,
     "StdDev": 0.4733,
@@ -24310,7 +24310,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 111,
     "StdDev": 0.3208,
@@ -24319,7 +24319,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 112,
     "StdDev": 0.3221,
@@ -24328,7 +24328,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act18d3_08_perm",
+    "StageID": "act18d3_08",
     "Times": 953,
     "Quantity": 9,
     "StdDev": 0.0967,
@@ -24517,7 +24517,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 0,
     "StdDev": 0,
@@ -24526,7 +24526,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 37,
     "StdDev": 0.2321,
@@ -24535,7 +24535,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 1,
     "StdDev": 0.1666,
@@ -24544,7 +24544,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 3,
     "StdDev": 0.2799,
@@ -24553,7 +24553,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 8,
     "StdDev": 0.4199,
@@ -24562,7 +24562,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 3,
     "StdDev": 0.2799,
@@ -24571,7 +24571,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 3,
     "StdDev": 0.2799,
@@ -24580,7 +24580,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 12,
     "StdDev": 0.4747,
@@ -24589,7 +24589,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act13d5_05_perm",
+    "StageID": "act13d5_05",
     "Times": 35,
     "Quantity": 5,
     "StdDev": 0.3499,
@@ -24976,7 +24976,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 15,
     "StdDev": 0.4635,
@@ -24985,7 +24985,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 7,
     "StdDev": 0.3529,
@@ -24994,7 +24994,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 5,
     "StdDev": 0.3055,
@@ -25003,7 +25003,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 2,
     "StdDev": 0.1998,
@@ -25012,7 +25012,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 0,
     "StdDev": 0,
@@ -25021,7 +25021,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 28,
     "StdDev": 0.493,
@@ -25030,7 +25030,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 10,
     "StdDev": 0.4061,
@@ -25039,7 +25039,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 6,
     "StdDev": 0.3307,
@@ -25048,7 +25048,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act15d0_01_perm",
+    "StageID": "act15d0_01",
     "Times": 48,
     "Quantity": 3,
     "StdDev": 0.2421,
@@ -26479,7 +26479,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 29,
     "StdDev": 0.318,
@@ -26488,7 +26488,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 0,
     "StdDev": 0,
@@ -26497,7 +26497,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 212,
     "StdDev": 0.382,
@@ -26506,7 +26506,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 36,
     "StdDev": 0.3488,
@@ -26515,7 +26515,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 44,
     "StdDev": 0.3784,
@@ -26524,7 +26524,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 67,
     "StdDev": 0.4407,
@@ -26533,7 +26533,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 25,
     "StdDev": 0.2979,
@@ -26542,7 +26542,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 34,
     "StdDev": 0.3405,
@@ -26551,7 +26551,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_01_perm",
+    "StageID": "act16d5_01",
     "Times": 254,
     "Quantity": 19,
     "StdDev": 0.2631,
@@ -26839,7 +26839,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26848,7 +26848,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 1,
     "StdDev": 0.4714,
@@ -26857,7 +26857,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26866,7 +26866,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26875,7 +26875,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26884,7 +26884,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -26893,7 +26893,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26902,7 +26902,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -26911,7 +26911,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 2,
     "StdDev": 0.4714,
@@ -26920,7 +26920,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act18d0_01_perm",
+    "StageID": "act18d0_01",
     "Times": 3,
     "Quantity": 0,
     "StdDev": 0,
@@ -27433,7 +27433,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 8,
     "StdDev": 0.3727,
@@ -27442,7 +27442,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 9,
     "StdDev": 0.3903,
@@ -27451,7 +27451,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 0,
     "StdDev": 0,
@@ -27460,7 +27460,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 14,
     "StdDev": 0.4545,
@@ -27469,7 +27469,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 3,
     "StdDev": 0.2421,
@@ -27478,7 +27478,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 2,
     "StdDev": 0.1998,
@@ -27487,7 +27487,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 66,
     "StdDev": 0.4841,
@@ -27496,7 +27496,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 10,
     "StdDev": 0.4061,
@@ -27505,7 +27505,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13side_06_perm",
+    "StageID": "act13side_06",
     "Times": 48,
     "Quantity": 2,
     "StdDev": 0.1998,
@@ -27514,7 +27514,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 272,
     "StdDev": 0.4166,
@@ -27523,7 +27523,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 95,
     "StdDev": 0.2683,
@@ -27532,7 +27532,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 147,
     "StdDev": 0.3259,
@@ -27541,7 +27541,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 575,
     "StdDev": 0.4992,
@@ -27550,7 +27550,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 248,
     "StdDev": 0.4028,
@@ -27559,7 +27559,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 0,
     "StdDev": 0,
@@ -27568,7 +27568,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 166,
     "StdDev": 0.3432,
@@ -27577,7 +27577,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 124,
     "StdDev": 0.3025,
@@ -27586,7 +27586,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a003_f03_perm",
+    "StageID": "a003_f03",
     "Times": 1217,
     "Quantity": 170,
     "StdDev": 0.3467,
@@ -27595,7 +27595,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 125,
     "StdDev": 0.4348,
@@ -27604,7 +27604,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 85,
     "StdDev": 0.3774,
@@ -27613,7 +27613,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 872,
     "StdDev": 0.4239,
@@ -27622,7 +27622,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 40,
     "StdDev": 0.2728,
@@ -27631,7 +27631,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 8,
     "StdDev": 0.1262,
@@ -27640,7 +27640,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 214,
     "StdDev": 0.4955,
@@ -27649,7 +27649,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 14,
     "StdDev": 0.1659,
@@ -27658,7 +27658,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 493,
     "StdDev": 0.0449,
@@ -27667,7 +27667,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 0,
     "StdDev": 0,
@@ -27676,7 +27676,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d3_04_perm",
+    "StageID": "act18d3_04",
     "Times": 494,
     "Quantity": 4,
     "StdDev": 0.0896,
@@ -27685,7 +27685,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -27694,7 +27694,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 52,
     "StdDev": 0.547,
@@ -27703,7 +27703,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 1,
     "StdDev": 0.2233,
@@ -27712,7 +27712,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 8,
     "StdDev": 0.4937,
@@ -27721,7 +27721,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -27730,7 +27730,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 2,
     "StdDev": 0.3069,
@@ -27739,7 +27739,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -27748,7 +27748,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act12side_04_perm",
+    "StageID": "act12side_04",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -27928,7 +27928,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 1422,
     "StdDev": 0.4641,
@@ -27937,7 +27937,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 96,
     "StdDev": 0.1441,
@@ -27946,7 +27946,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 1506,
     "StdDev": 0.4712,
@@ -27955,7 +27955,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 56,
     "StdDev": 0.1106,
@@ -27964,7 +27964,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 474,
     "StdDev": 0.3062,
@@ -27973,7 +27973,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 0,
     "StdDev": 0,
@@ -27982,7 +27982,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 1319,
     "StdDev": 0.4544,
@@ -27991,7 +27991,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 41,
     "StdDev": 0.0947,
@@ -28000,7 +28000,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 497,
     "StdDev": 0.3127,
@@ -28009,7 +28009,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 548,
     "StdDev": 0.3262,
@@ -28018,7 +28018,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act18d0_08_perm",
+    "StageID": "act18d0_08",
     "Times": 4526,
     "Quantity": 73,
     "StdDev": 0.126,
@@ -28027,7 +28027,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 482,
     "StdDev": 0.334,
@@ -28036,7 +28036,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 382,
     "StdDev": 0.3018,
@@ -28045,7 +28045,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 1938,
     "StdDev": 0.4998,
@@ -28054,7 +28054,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 410,
     "StdDev": 0.3114,
@@ -28063,7 +28063,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 503,
     "StdDev": 0.3401,
@@ -28072,7 +28072,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 380,
     "StdDev": 0.3011,
@@ -28081,7 +28081,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 0,
     "StdDev": 0,
@@ -28090,7 +28090,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 608,
     "StdDev": 0.3678,
@@ -28099,7 +28099,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 426,
     "StdDev": 0.3166,
@@ -28108,7 +28108,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act18d3_07_perm",
+    "StageID": "act18d3_07",
     "Times": 3769,
     "Quantity": 578,
     "StdDev": 0.3603,
@@ -28639,7 +28639,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 43,
     "StdDev": 0.3485,
@@ -28648,7 +28648,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 31,
     "StdDev": 0.3026,
@@ -28657,7 +28657,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 16,
     "StdDev": 0.2233,
@@ -28666,7 +28666,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 12,
     "StdDev": 0.1947,
@@ -28675,7 +28675,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 368,
     "StdDev": 0.4312,
@@ -28684,7 +28684,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 0,
     "StdDev": 0,
@@ -28693,7 +28693,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 208,
     "StdDev": 0.4648,
@@ -28702,7 +28702,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 25,
     "StdDev": 0.2748,
@@ -28711,7 +28711,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 14,
     "StdDev": 0.2096,
@@ -28720,7 +28720,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "a001_02_perm",
+    "StageID": "a001_02",
     "Times": 304,
     "Quantity": 11,
     "StdDev": 0.1867,
@@ -28729,7 +28729,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 163,
     "StdDev": 0.4935,
@@ -28738,7 +28738,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 69,
     "StdDev": 0.3653,
@@ -28747,7 +28747,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 91,
     "StdDev": 0.4067,
@@ -28756,7 +28756,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 35,
     "StdDev": 0.272,
@@ -28765,7 +28765,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 40,
     "StdDev": 0.2889,
@@ -28774,7 +28774,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 72,
     "StdDev": 0.3717,
@@ -28783,7 +28783,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 4,
     "StdDev": 0.0955,
@@ -28792,7 +28792,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 0,
     "StdDev": 0,
@@ -28801,7 +28801,7 @@
   },
   {
     "ItemID": "30024",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 11,
     "StdDev": 0.1571,
@@ -28810,7 +28810,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 65,
     "StdDev": 0.3565,
@@ -28819,7 +28819,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 39,
     "StdDev": 0.2857,
@@ -28828,7 +28828,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 3,
     "StdDev": 0.0828,
@@ -28837,7 +28837,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act12d0_07_perm",
+    "StageID": "act12d0_07",
     "Times": 435,
     "Quantity": 10,
     "StdDev": 0.1499,
@@ -29098,7 +29098,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 124,
     "StdDev": 0.4615,
@@ -29107,7 +29107,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 36,
     "StdDev": 0.2852,
@@ -29116,7 +29116,7 @@
   },
   {
     "ItemID": "30054",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 10,
     "StdDev": 0.1556,
@@ -29125,7 +29125,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 2,
     "StdDev": 0.0703,
@@ -29134,7 +29134,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 0,
     "StdDev": 0,
@@ -29143,7 +29143,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 41,
     "StdDev": 0.3023,
@@ -29152,7 +29152,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 10,
     "StdDev": 0.1556,
@@ -29161,7 +29161,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 9,
     "StdDev": 0.1478,
@@ -29170,7 +29170,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 45,
     "StdDev": 0.315,
@@ -29179,7 +29179,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 116,
     "StdDev": 0.4528,
@@ -29188,7 +29188,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 9,
     "StdDev": 0.1478,
@@ -29197,7 +29197,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act15d0_07_perm",
+    "StageID": "act15d0_07",
     "Times": 403,
     "Quantity": 127,
     "StdDev": 0.4646,
@@ -29350,7 +29350,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 84,
     "StdDev": 0.4477,
@@ -29359,7 +29359,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 7,
     "StdDev": 0.1503,
@@ -29368,7 +29368,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 43,
     "StdDev": 0.349,
@@ -29377,7 +29377,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 87,
     "StdDev": 0.4524,
@@ -29386,7 +29386,7 @@
   },
   {
     "ItemID": "30013",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 5,
     "StdDev": 0.1273,
@@ -29395,7 +29395,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 108,
     "StdDev": 0.4789,
@@ -29404,7 +29404,7 @@
   },
   {
     "ItemID": "30034",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 12,
     "StdDev": 0.195,
@@ -29413,7 +29413,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 30,
     "StdDev": 0.2987,
@@ -29422,7 +29422,7 @@
   },
   {
     "ItemID": "30063",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 2,
     "StdDev": 0.081,
@@ -29431,7 +29431,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 2,
     "StdDev": 0.081,
@@ -29440,7 +29440,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 1,
     "StdDev": 0.0573,
@@ -29449,7 +29449,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act12d0_09_perm",
+    "StageID": "act12d0_09",
     "Times": 303,
     "Quantity": 43,
     "StdDev": 0.3489,
@@ -29539,7 +29539,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 319,
     "StdDev": 0.2831,
@@ -29548,7 +29548,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 43,
     "StdDev": 0.1082,
@@ -29557,7 +29557,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 71,
     "StdDev": 0.1385,
@@ -29566,7 +29566,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 1242,
     "StdDev": 0.4819,
@@ -29575,7 +29575,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 377,
     "StdDev": 0.305,
@@ -29584,7 +29584,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 1542,
     "StdDev": 0.4943,
@@ -29593,7 +29593,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 34,
     "StdDev": 0.0964,
@@ -29602,7 +29602,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 1175,
     "StdDev": 0.4679,
@@ -29611,7 +29611,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 36,
     "StdDev": 0.099,
@@ -29620,7 +29620,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_08_perm",
+    "StageID": "act12d0_08",
     "Times": 3631,
     "Quantity": 0,
     "StdDev": 0,
@@ -29656,7 +29656,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 7,
     "StdDev": 0.433,
@@ -29665,7 +29665,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 1,
     "StdDev": 0.433,
@@ -29674,7 +29674,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 0,
     "StdDev": 0,
@@ -29683,7 +29683,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 1,
     "StdDev": 0.433,
@@ -29692,7 +29692,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 0,
     "StdDev": 0,
@@ -29701,7 +29701,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 0,
     "StdDev": 0,
@@ -29710,7 +29710,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 1,
     "StdDev": 0.433,
@@ -29719,7 +29719,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 1,
     "StdDev": 0.433,
@@ -29728,7 +29728,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act16d5_07_perm",
+    "StageID": "act16d5_07",
     "Times": 4,
     "Quantity": 0,
     "StdDev": 0,
@@ -29737,7 +29737,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 3,
     "StdDev": 0.1998,
@@ -29746,7 +29746,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 0,
     "StdDev": 0,
@@ -29755,7 +29755,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 6,
     "StdDev": 0.2764,
@@ -29764,7 +29764,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 6,
     "StdDev": 0.2764,
@@ -29773,7 +29773,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 10,
     "StdDev": 0.3458,
@@ -29782,7 +29782,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 5,
     "StdDev": 0.2542,
@@ -29791,7 +29791,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 63,
     "StdDev": 0.3307,
@@ -29800,7 +29800,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 7,
     "StdDev": 0.2963,
@@ -29809,7 +29809,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act17side_01_perm",
+    "StageID": "act17side_01",
     "Times": 72,
     "Quantity": 2,
     "StdDev": 0.1643,
@@ -30304,7 +30304,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 0,
     "StdDev": 0,
@@ -30313,7 +30313,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 1,
     "StdDev": 0.1622,
@@ -30322,7 +30322,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 9,
     "StdDev": 0.429,
@@ -30331,7 +30331,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 1,
     "StdDev": 0.1622,
@@ -30340,7 +30340,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 0,
     "StdDev": 0,
@@ -30349,7 +30349,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 10,
     "StdDev": 0.4441,
@@ -30358,7 +30358,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 0,
     "StdDev": 0,
@@ -30367,7 +30367,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 3,
     "StdDev": 0.273,
@@ -30376,7 +30376,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 13,
     "StdDev": 0.4774,
@@ -30385,7 +30385,7 @@
   },
   {
     "ItemID": "30074",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 1,
     "StdDev": 0.1622,
@@ -30394,7 +30394,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 6,
     "StdDev": 0.3686,
@@ -30403,7 +30403,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 0,
     "StdDev": 0,
@@ -30412,7 +30412,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 3,
     "StdDev": 0.273,
@@ -30421,7 +30421,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act13side_10_perm",
+    "StageID": "act13side_10",
     "Times": 37,
     "Quantity": 4,
     "StdDev": 0.3105,
@@ -30880,7 +30880,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 0,
     "StdDev": 0,
@@ -30889,7 +30889,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 26,
     "StdDev": 0.5547,
@@ -30898,7 +30898,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 7,
     "StdDev": 0.4435,
@@ -30907,7 +30907,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 1,
     "StdDev": 0.1923,
@@ -30916,7 +30916,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 0,
     "StdDev": 0,
@@ -30925,7 +30925,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 4,
     "StdDev": 0.3608,
@@ -30934,7 +30934,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 65,
     "StdDev": 1.0096,
@@ -30943,7 +30943,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 1,
     "StdDev": 0.1923,
@@ -30952,7 +30952,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "a003_f02_perm",
+    "StageID": "a003_f02",
     "Times": 26,
     "Quantity": 0,
     "StdDev": 0,
@@ -31996,7 +31996,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 0,
     "StdDev": 0,
@@ -32005,7 +32005,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 19,
     "StdDev": 0.4487,
@@ -32014,7 +32014,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 17,
     "StdDev": 0.433,
@@ -32023,7 +32023,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 0,
     "StdDev": 0,
@@ -32032,7 +32032,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 15,
     "StdDev": 0.4146,
@@ -32041,7 +32041,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 3,
     "StdDev": 0.2054,
@@ -32050,7 +32050,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 12,
     "StdDev": 0.3812,
@@ -32059,7 +32059,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 0,
     "StdDev": 0,
@@ -32068,7 +32068,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 2,
     "StdDev": 0.169,
@@ -32077,7 +32077,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act15d0_04_perm",
+    "StageID": "act15d0_04",
     "Times": 68,
     "Quantity": 95,
     "StdDev": 0.4893,
@@ -33661,7 +33661,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 1,
     "StdDev": 0.2494,
@@ -33670,7 +33670,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 5,
     "StdDev": 0.4714,
@@ -33679,7 +33679,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 5,
     "StdDev": 0.4714,
@@ -33688,7 +33688,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 0,
     "StdDev": 0,
@@ -33697,7 +33697,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 1,
     "StdDev": 0.2494,
@@ -33706,7 +33706,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 36,
     "StdDev": 0.4899,
@@ -33715,7 +33715,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 2,
     "StdDev": 0.3399,
@@ -33724,7 +33724,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 1,
     "StdDev": 0.2494,
@@ -33733,7 +33733,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 0,
     "StdDev": 0,
@@ -33742,7 +33742,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_06_perm",
+    "StageID": "act16d5_06",
     "Times": 15,
     "Quantity": 0,
     "StdDev": 0,
@@ -34030,7 +34030,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 0,
     "StdDev": 0,
@@ -34039,7 +34039,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 0,
     "StdDev": 0,
@@ -34048,7 +34048,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 0,
     "StdDev": 0,
@@ -34057,7 +34057,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 57,
     "StdDev": 0.5801,
@@ -34066,7 +34066,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 1,
     "StdDev": 0.2039,
@@ -34075,7 +34075,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 12,
     "StdDev": 0.4995,
@@ -34084,7 +34084,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 0,
     "StdDev": 0,
@@ -34093,7 +34093,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_04_perm",
+    "StageID": "act17side_04",
     "Times": 23,
     "Quantity": 7,
     "StdDev": 0.4601,
@@ -34102,7 +34102,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34111,7 +34111,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34120,7 +34120,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34129,7 +34129,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34138,7 +34138,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34147,7 +34147,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 1,
     "StdDev": 0.5,
@@ -34156,7 +34156,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 2,
     "StdDev": 1,
@@ -34165,7 +34165,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -34174,7 +34174,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act11d0_03_perm",
+    "StageID": "act11d0_03",
     "Times": 2,
     "Quantity": 0,
     "StdDev": 0,
@@ -35182,7 +35182,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 5,
     "StdDev": 0.0932,
@@ -35191,7 +35191,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 4,
     "StdDev": 0.0835,
@@ -35200,7 +35200,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 210,
     "StdDev": 0.4932,
@@ -35209,7 +35209,7 @@
   },
   {
     "ItemID": "30034",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 20,
     "StdDev": 0.184,
@@ -35218,7 +35218,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 6,
     "StdDev": 0.1021,
@@ -35227,7 +35227,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 0,
     "StdDev": 0,
@@ -35236,7 +35236,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 195,
     "StdDev": 0.4744,
@@ -35245,7 +35245,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 242,
     "StdDev": 0.4943,
@@ -35254,7 +35254,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 56,
     "StdDev": 0.2976,
@@ -35263,7 +35263,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 49,
     "StdDev": 0.2803,
@@ -35272,7 +35272,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act16d5_09_perm",
+    "StageID": "act16d5_09",
     "Times": 570,
     "Quantity": 6,
     "StdDev": 0.1021,
@@ -35443,7 +35443,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 3,
     "StdDev": 0.1336,
@@ -35452,7 +35452,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 202,
     "StdDev": 0.4586,
@@ -35461,7 +35461,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 408,
     "StdDev": 0.6926,
@@ -35470,7 +35470,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 7,
     "StdDev": 0.2015,
@@ -35479,7 +35479,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 65,
     "StdDev": 0.4887,
@@ -35488,7 +35488,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 3,
     "StdDev": 0.1336,
@@ -35497,7 +35497,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 0,
     "StdDev": 0,
@@ -35506,7 +35506,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 27,
     "StdDev": 0.3699,
@@ -35515,7 +35515,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act9d0_03_perm",
+    "StageID": "act9d0_03",
     "Times": 165,
     "Quantity": 13,
     "StdDev": 0.2694,
@@ -38476,7 +38476,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 33,
     "StdDev": 0.4123,
@@ -38485,7 +38485,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 21,
     "StdDev": 0.345,
@@ -38494,7 +38494,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 7,
     "StdDev": 0.2096,
@@ -38503,7 +38503,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 0,
     "StdDev": 0,
@@ -38512,7 +38512,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 22,
     "StdDev": 0.3518,
@@ -38521,7 +38521,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 24,
     "StdDev": 0.3646,
@@ -38530,7 +38530,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 31,
     "StdDev": 0.4029,
@@ -38539,7 +38539,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 172,
     "StdDev": 0.3749,
@@ -38548,7 +38548,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12d0_05_perm",
+    "StageID": "act12d0_05",
     "Times": 152,
     "Quantity": 14,
     "StdDev": 0.2892,
@@ -38557,7 +38557,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38566,7 +38566,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38575,7 +38575,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 182,
     "StdDev": 0,
@@ -38584,7 +38584,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38593,7 +38593,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38602,7 +38602,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 218,
     "StdDev": 0.3983,
@@ -38611,7 +38611,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38620,7 +38620,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38629,7 +38629,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38638,7 +38638,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13d5_02_perm",
+    "StageID": "act13d5_02",
     "Times": 182,
     "Quantity": 0,
     "StdDev": 0,
@@ -38845,7 +38845,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 20,
     "StdDev": 0,
@@ -38854,7 +38854,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 0,
     "StdDev": 0,
@@ -38863,7 +38863,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 0,
     "StdDev": 0,
@@ -38872,7 +38872,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 6,
     "StdDev": 0.4583,
@@ -38881,7 +38881,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 0,
     "StdDev": 0,
@@ -38890,7 +38890,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 1,
     "StdDev": 0.2179,
@@ -38899,7 +38899,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 5,
     "StdDev": 0.433,
@@ -38908,7 +38908,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 0,
     "StdDev": 0,
@@ -38917,7 +38917,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13d5_04_perm",
+    "StageID": "act13d5_04",
     "Times": 20,
     "Quantity": 42,
     "StdDev": 0.6245,
@@ -38926,7 +38926,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 659,
     "StdDev": 0.4059,
@@ -38935,7 +38935,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 277,
     "StdDev": 0.2824,
@@ -38944,7 +38944,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 2,
     "StdDev": 0.0251,
@@ -38953,7 +38953,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 406,
     "StdDev": 0.3343,
@@ -38962,7 +38962,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 489,
     "StdDev": 0.3612,
@@ -38971,7 +38971,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 47,
     "StdDev": 0.1209,
@@ -38980,7 +38980,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 540,
     "StdDev": 0.376,
@@ -38989,7 +38989,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 312,
     "StdDev": 0.2979,
@@ -38998,7 +38998,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 967,
     "StdDev": 0.4733,
@@ -39007,7 +39007,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 49,
     "StdDev": 0.1234,
@@ -39016,7 +39016,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 41,
     "StdDev": 0.113,
@@ -39025,7 +39025,7 @@
   },
   {
     "ItemID": "30044",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 107,
     "StdDev": 0.1806,
@@ -39034,7 +39034,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_08_perm",
+    "StageID": "act9d0_08",
     "Times": 3169,
     "Quantity": 296,
     "StdDev": 0.2911,
@@ -39718,7 +39718,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 8,
     "StdDev": 0.4518,
@@ -39727,7 +39727,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 7,
     "StdDev": 0.433,
@@ -39736,7 +39736,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 2,
     "StdDev": 0.2576,
@@ -39745,7 +39745,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 3,
     "StdDev": 0.3093,
@@ -39754,7 +39754,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 4,
     "StdDev": 0.3499,
@@ -39763,7 +39763,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 2,
     "StdDev": 0.2576,
@@ -39772,7 +39772,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 25,
     "StdDev": 0.4884,
@@ -39781,7 +39781,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act11d0_05_perm",
+    "StageID": "act11d0_05",
     "Times": 28,
     "Quantity": 0,
     "StdDev": 0,
@@ -39970,7 +39970,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 3,
     "StdDev": 0.3812,
@@ -39979,7 +39979,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 1,
     "StdDev": 0.2353,
@@ -39988,7 +39988,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -39997,7 +39997,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 10,
     "StdDev": 0.4922,
@@ -40006,7 +40006,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -40015,7 +40015,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -40024,7 +40024,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 3,
     "StdDev": 0.3812,
@@ -40033,7 +40033,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 19,
     "StdDev": 0.3222,
@@ -40042,7 +40042,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 1,
     "StdDev": 0.2353,
@@ -40051,7 +40051,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_01_perm",
+    "StageID": "act13d5_01",
     "Times": 17,
     "Quantity": 0,
     "StdDev": 0,
@@ -40060,7 +40060,7 @@
   },
   {
     "ItemID": "30053",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 24,
     "StdDev": 0.1037,
@@ -40069,7 +40069,7 @@
   },
   {
     "ItemID": "31033",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 19,
     "StdDev": 0.0923,
@@ -40078,7 +40078,7 @@
   },
   {
     "ItemID": "30073",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 763,
     "StdDev": 0.4756,
@@ -40087,7 +40087,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 748,
     "StdDev": 0.4733,
@@ -40096,7 +40096,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 2,
     "StdDev": 0.0301,
@@ -40105,7 +40105,7 @@
   },
   {
     "ItemID": "30074",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 81,
     "StdDev": 0.188,
@@ -40114,7 +40114,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 938,
     "StdDev": 0.4943,
@@ -40123,7 +40123,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 230,
     "StdDev": 0.3054,
@@ -40132,7 +40132,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 179,
     "StdDev": 0.273,
@@ -40141,7 +40141,7 @@
   },
   {
     "ItemID": "30033",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 34,
     "StdDev": 0.1232,
@@ -40150,7 +40150,7 @@
   },
   {
     "ItemID": "30093",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 20,
     "StdDev": 0.0948,
@@ -40159,7 +40159,7 @@
   },
   {
     "ItemID": "30103",
-    "StageID": "act9d0_07_perm",
+    "StageID": "act9d0_07",
     "Times": 2208,
     "Quantity": 16,
     "StdDev": 0.0849,
@@ -41527,7 +41527,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 110,
     "StdDev": 0.5116,
@@ -41536,7 +41536,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 5,
     "StdDev": 0.2291,
@@ -41545,7 +41545,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 78,
     "StdDev": 0.4269,
@@ -41554,7 +41554,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 7,
     "StdDev": 0.2678,
@@ -41563,7 +41563,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 1,
     "StdDev": 0.1048,
@@ -41572,7 +41572,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 3,
     "StdDev": 0.1795,
@@ -41581,7 +41581,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 5,
     "StdDev": 0.2291,
@@ -41590,7 +41590,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 12,
     "StdDev": 0.34,
@@ -41599,7 +41599,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 0,
     "StdDev": 0,
@@ -41608,7 +41608,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act9d0_01_perm",
+    "StageID": "act9d0_01",
     "Times": 90,
     "Quantity": 12,
     "StdDev": 0.3399,
@@ -41779,7 +41779,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 797,
     "StdDev": 0.3657,
@@ -41788,7 +41788,7 @@
   },
   {
     "ItemID": "30043",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 129,
     "StdDev": 0.1583,
@@ -41797,7 +41797,7 @@
   },
   {
     "ItemID": "30083",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 2017,
     "StdDev": 0.5111,
@@ -41806,7 +41806,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 815,
     "StdDev": 0.369,
@@ -41815,7 +41815,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 1015,
     "StdDev": 0.4018,
@@ -41824,7 +41824,7 @@
   },
   {
     "ItemID": "30084",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 194,
     "StdDev": 0.1929,
@@ -41833,7 +41833,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 521,
     "StdDev": 0.3052,
@@ -41842,7 +41842,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 446,
     "StdDev": 0.2847,
@@ -41851,7 +41851,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 138,
     "StdDev": 0.1636,
@@ -41860,7 +41860,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 142,
     "StdDev": 0.1659,
@@ -41869,7 +41869,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 1,
     "StdDev": 0.0141,
@@ -41878,7 +41878,7 @@
   },
   {
     "ItemID": "2003",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 326,
     "StdDev": 0.2466,
@@ -41887,7 +41887,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act17side_09_perm",
+    "StageID": "act17side_09",
     "Times": 5013,
     "Quantity": 541,
     "StdDev": 0.3103,
@@ -41896,7 +41896,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 89,
     "StdDev": 0.3245,
@@ -41905,7 +41905,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 89,
     "StdDev": 0.3245,
@@ -41914,7 +41914,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 111,
     "StdDev": 0.3563,
@@ -41923,7 +41923,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 353,
     "StdDev": 0.4993,
@@ -41932,7 +41932,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 99,
     "StdDev": 0.3396,
@@ -41941,7 +41941,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 77,
     "StdDev": 0.3046,
@@ -41950,7 +41950,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 0,
     "StdDev": 0,
@@ -41959,7 +41959,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 129,
     "StdDev": 0.3786,
@@ -41968,7 +41968,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 73,
     "StdDev": 0.2975,
@@ -41977,7 +41977,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act15d0_06_perm",
+    "StageID": "act15d0_06",
     "Times": 744,
     "Quantity": 77,
     "StdDev": 0.3046,
@@ -42013,7 +42013,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 2,
     "StdDev": 0.3069,
@@ -42022,7 +42022,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -42031,7 +42031,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 0,
     "StdDev": 0,
@@ -42040,7 +42040,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 4,
     "StdDev": 0.4077,
@@ -42049,7 +42049,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 2,
     "StdDev": 0.3069,
@@ -42058,7 +42058,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 5,
     "StdDev": 0.4403,
@@ -42067,7 +42067,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 15,
     "StdDev": 0.4077,
@@ -42076,7 +42076,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 2,
     "StdDev": 0.3069,
@@ -42085,7 +42085,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 3,
     "StdDev": 0.3646,
@@ -42094,7 +42094,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act17side_07_perm",
+    "StageID": "act17side_07",
     "Times": 19,
     "Quantity": 1,
     "StdDev": 0.2233,
@@ -42715,7 +42715,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42724,7 +42724,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 2,
     "StdDev": 0.3499,
@@ -42733,7 +42733,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42742,7 +42742,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 1,
     "StdDev": 0.2575,
@@ -42751,7 +42751,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42760,7 +42760,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42769,7 +42769,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42778,7 +42778,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act17side_03_perm",
+    "StageID": "act17side_03",
     "Times": 14,
     "Quantity": 0,
     "StdDev": 0,
@@ -42787,7 +42787,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 5,
     "StdDev": 0.5,
@@ -42796,7 +42796,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -42805,7 +42805,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -42814,7 +42814,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -42823,7 +42823,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -42832,7 +42832,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 1,
     "StdDev": 0.3,
@@ -42841,7 +42841,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 10,
     "StdDev": 0,
@@ -42850,7 +42850,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 0,
     "StdDev": 0,
@@ -42859,7 +42859,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act12side_01_perm",
+    "StageID": "act12side_01",
     "Times": 10,
     "Quantity": 2,
     "StdDev": 0.4,
@@ -43489,7 +43489,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 122,
     "StdDev": 0.3687,
@@ -43498,7 +43498,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 85,
     "StdDev": 0.3166,
@@ -43507,7 +43507,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 99,
     "StdDev": 0.3381,
@@ -43516,7 +43516,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 79,
     "StdDev": 0.3066,
@@ -43525,7 +43525,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 64,
     "StdDev": 0.279,
@@ -43534,7 +43534,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 90,
     "StdDev": 0.3246,
@@ -43543,7 +43543,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 0,
     "StdDev": 0,
@@ -43552,7 +43552,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 93,
     "StdDev": 0.3292,
@@ -43561,7 +43561,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 120,
     "StdDev": 0.3662,
@@ -43570,7 +43570,7 @@
   },
   {
     "ItemID": "31013",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 181,
     "StdDev": 0.4275,
@@ -43579,7 +43579,7 @@
   },
   {
     "ItemID": "31014",
-    "StageID": "act13d5_06_perm",
+    "StageID": "act13d5_06",
     "Times": 752,
     "Quantity": 29,
     "StdDev": 0.1926,
@@ -43588,7 +43588,7 @@
   },
   {
     "ItemID": "30021",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 484,
     "StdDev": 0.351,
@@ -43597,7 +43597,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 0,
     "StdDev": 0,
@@ -43606,7 +43606,7 @@
   },
   {
     "ItemID": "2001",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 390,
     "StdDev": 0.322,
@@ -43615,7 +43615,7 @@
   },
   {
     "ItemID": "30051",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 399,
     "StdDev": 0.3233,
@@ -43624,7 +43624,7 @@
   },
   {
     "ItemID": "30042",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 359,
     "StdDev": 0.3088,
@@ -43633,7 +43633,7 @@
   },
   {
     "ItemID": "2002",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 513,
     "StdDev": 0.3595,
@@ -43642,7 +43642,7 @@
   },
   {
     "ItemID": "30023",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 1552,
     "StdDev": 0.4985,
@@ -43651,7 +43651,7 @@
   },
   {
     "ItemID": "30041",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 418,
     "StdDev": 0.3298,
@@ -43660,7 +43660,7 @@
   },
   {
     "ItemID": "30022",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 458,
     "StdDev": 0.3429,
@@ -43669,7 +43669,7 @@
   },
   {
     "ItemID": "30052",
-    "StageID": "act9d0_06_perm",
+    "StageID": "act9d0_06",
     "Times": 3364,
     "Quantity": 356,
     "StdDev": 0.3076,
@@ -44398,7 +44398,7 @@
   },
   {
     "ItemID": "30012",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 121,
     "StdDev": 0.4045,
@@ -44407,7 +44407,7 @@
   },
   {
     "ItemID": "30062",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 59,
     "StdDev": 0.3007,
@@ -44416,7 +44416,7 @@
   },
   {
     "ItemID": "30031",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 74,
     "StdDev": 0.3319,
@@ -44425,7 +44425,7 @@
   },
   {
     "ItemID": "30061",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 43,
     "StdDev": 0.2606,
@@ -44434,7 +44434,7 @@
   },
   {
     "ItemID": "31023",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 229,
     "StdDev": 0.4878,
@@ -44443,7 +44443,7 @@
   },
   {
     "ItemID": "furni",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 0,
     "StdDev": 0,
@@ -44452,7 +44452,7 @@
   },
   {
     "ItemID": "3003",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 73,
     "StdDev": 0.33,
@@ -44461,7 +44461,7 @@
   },
   {
     "ItemID": "30032",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 99,
     "StdDev": 0.3744,
@@ -44470,7 +44470,7 @@
   },
   {
     "ItemID": "30011",
-    "StageID": "act16d5_08_perm",
+    "StageID": "act16d5_08",
     "Times": 587,
     "Quantity": 118,
     "StdDev": 0.4008,
