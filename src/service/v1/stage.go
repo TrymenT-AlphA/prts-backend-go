@@ -7,6 +7,7 @@ func Stage(id string) model.Stage {
 	db.
 		Model(&model.Stage{}).
 		Where(&model.Stage{ID: id}).
+		Preload("EnemyInstances").
 		Limit(1).
 		Find(&result)
 	return result
