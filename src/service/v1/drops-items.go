@@ -9,7 +9,8 @@ func DropsItems() ([]model.Item, error) {
 			FROM prts_item
 			JOIN prts_drop
 			ON prts_item.ID = prts_drop.ItemID
-			GROUP BY ID`).
+			GROUP BY ID
+			ORDER BY IconID`).
 		Scan(&result).
 		Error
 	return result, err

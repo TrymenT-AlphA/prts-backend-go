@@ -74,6 +74,10 @@ func Run(port *string, config *fiber.Config) {
 	//* RESTAPI>V1>ENEMY
 
 	//* RESTAPI>V1>ENEMY>GET
+	v1.Get("/enemies/avg", func(c *fiber.Ctx) error {
+		return c.JSON(service.EnemyAvg())
+	})
+	
 	v1.Get("/enemies", func(c *fiber.Ctx) error {
 		return c.JSON(service.Enemies())
 	})
