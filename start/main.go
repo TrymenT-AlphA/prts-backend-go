@@ -23,11 +23,10 @@ func main() {
 	var configFile string
 	if *prod {
 		configFile = "config.prod.json"
-		log.Print("[INFO] Reading Config from config.prod.json")
 	} else {
 		configFile = "config.dev.json"
-		log.Print("[INFO] Reading Config from config.dev.json")
 	}
+	log.Print("[INFO] Reading Config from " + configFile)
 	bytes, err = ioutil.ReadFile(filepath.Join(cwd, "..", "start", configFile))
 	if err != nil {
 		log.Fatal(err)
