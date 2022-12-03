@@ -23,4 +23,4 @@ WORKDIR /app/build
 RUN apk add --no-cache libc6-compat tini
 ENTRYPOINT [ "/sbin/tini", "--" ]
 
-CMD [ "./prts-backend" ]
+CMD [ "./prts-backend", "-prod" ]

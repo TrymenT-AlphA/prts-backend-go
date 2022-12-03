@@ -9,14 +9,15 @@ import (
 	"gorm.io/gorm/schema"
 )
 
-var db *gorm.DB = nil
+var DB *gorm.DB = nil
 
 func InitDatabase(dsn string, isChild bool) error {
-	if db != nil {
+	if DB != nil {
 		return nil
 	}
 
-	db, err := gorm.Open(mysql.Open(string(dsn)), &gorm.Config{
+	var err error
+	DB, err = gorm.Open(mysql.Open(string(dsn)), &gorm.Config{
 		CreateBatchSize: 500,
 		NamingStrategy: schema.NamingStrategy{
 			TablePrefix:   "prts_",
@@ -30,13 +31,13 @@ func InitDatabase(dsn string, isChild bool) error {
 	}
 
 	if !isChild {
-		err = util.AutoMigrate(db)
+		err = util.AutoMigrate(DB)
 		if err != nil {
 			log.Fatal(err)
 		} else {
 			log.Print("[SUCCESS] auto migrate database")
 		}
-		err = util.AutoBuild(db)
+		err = util.AutoBuild(DB)
 		if err != nil {
 			log.Fatal(err)
 		} else {

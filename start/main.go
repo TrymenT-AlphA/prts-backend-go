@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"io/ioutil"
 	"log"
 	"os"
@@ -11,12 +12,23 @@ import (
 	"github.com/tidwall/gjson"
 )
 
+var prod = flag.Bool("prod", false, "prod")
+
 func main() {
+	flag.Parse()
 	cwd, err := os.Getwd()
 	if err != nil {
 		log.Fatal(err)
 	}
-	bytes, err := ioutil.ReadFile(filepath.Join(cwd, "..", "start", "config.json"))
+	var bytes []byte
+	if *prod {
+		bytes, err = ioutil.ReadFile(filepath.Join(cwd, "..", "start", "config.prod.json"))
+		log.Print("[INFO] Reading Config from config.prod.json")
+	} else {
+		bytes, err = ioutil.ReadFile(filepath.Join(cwd, "..", "start", "config.dev.json"))
+		log.Print("[INFO] Reading Config from config.dev.json")
+	}
+
 	if err != nil {
 		log.Fatal(err)
 	}
