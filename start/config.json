@@ -1,0 +1,9 @@
+{
+  "port": ":3000",
+  "dsn": "aliceremake:123456@tcp(database:3306)/prts-go?charset=utf8mb4&parseTime=True&loc=Local",
+  "prefork": true,
+  "caseSensitive": false,
+  "strictRouting": false,
+  "serverHeader": "prts-backend powered by fiber",
+  "appName": "prts-backend v1"
+}

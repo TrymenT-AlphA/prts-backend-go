@@ -6,14 +6,14 @@ import (
 )
 
 type Drop struct {
-	Item     Item
-	ItemID   string `gorm:"primaryKey"`
-	Stage    Stage
-	StageID  string `gorm:"primaryKey"`
-	Times    int
-	Quantity int
-	StdDev   float64
-	Start    time.Time `gorm:"primaryKey"`
-	End      sql.NullTime
-	UpdateAt time.Time
+	Item     Item         `json:"item"`
+	ItemId   string       `json:"itemId" gorm:"primaryKey"`
+	Stage    Stage        `json:"stage"`
+	StageId  string       `json:"stageId" gorm:"primaryKey"`
+	Start    time.Time    `json:"start" gorm:"primaryKey"`
+	End      sql.NullTime `json:"end"`
+	Times    int64        `json:"times"`
+	Quantity int64        `json:"quantity"`
+	StdDev   float64      `json:"stdDev"`
+	UpdateAt time.Time    `json:"updateAt"`
 }

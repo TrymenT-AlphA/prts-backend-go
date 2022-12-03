@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/gofiber/fiber/v2 v2.40.0
-	github.com/valyala/fastjson v1.6.3
+	github.com/tidwall/gjson v1.14.4
 	gorm.io/gorm v1.24.2
 )
 
@@ -15,7 +15,6 @@ require (
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
-	github.com/tidwall/gjson v1.14.4 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
@@ -24,10 +23,7 @@ require (
 	golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab // indirect
 )
 
-require (
-	github.com/ahmetb/go-linq/v3 v3.2.0
-	github.com/go-sql-driver/mysql v1.6.0 // indirect
-)
+require github.com/go-sql-driver/mysql v1.6.0 // indirect
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect

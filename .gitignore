@@ -15,5 +15,4 @@
 # vendor/
 
 # custom
-.env
-/dist
+/build

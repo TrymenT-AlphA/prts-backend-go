@@ -5,9 +5,12 @@ import (
 	"testing"
 )
 
-func TestPrtsAutoMigrate(t *testing.T) {
-	InitTestDB()
-	err := util.AutoMigrate(db)
+func TestAutoMigrate(t *testing.T) {
+	err := InitTestDatabase()
+	if err != nil {
+		t.Fatal(err)
+	}
+	err = util.AutoMigrate(db)
 	if err != nil {
 		t.Fatal(err)
 	}

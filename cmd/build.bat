@@ -1,1 +1,1 @@
-@go build -o ./dist/prts-backend.exe
+@go build -o ./build/prts-backend.exe
