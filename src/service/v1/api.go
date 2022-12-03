@@ -27,10 +27,6 @@ func GetAPI() *fiber.App {
 	//* RESTAPI>V1>ENEMY
 
 	//* RESTAPI>V1>ENEMY>GET
-	api.Get("/enemies/avg", func(c *fiber.Ctx) error {
-		return c.JSON(EnemyAvg())
-	})
-
 	api.Get("/enemies", func(c *fiber.Ctx) error {
 		return c.JSON(Enemies())
 	})
@@ -129,12 +125,12 @@ func GetAPI() *fiber.App {
 	//* RESTAPI>V1>DROP>DELETE
 	api.Delete("/drop", func(c *fiber.Ctx) error {
 		//! DELETE A DROP IS NOT ALLOWED
-		return fiber.NewError(403, "DANGER ACTION: DELETE DROP")
+		return fiber.NewError(403, "PERMISSION DENIED: DELETE DROP")
 	})
 
 	api.Delete("/drops", func(c *fiber.Ctx) error {
 		//! DELETE DROPS IS NOT ALLOWED
-		return fiber.NewError(403, "DANGER ACTION: DELETE DROPS")
+		return fiber.NewError(403, "PERMISSION DENIED: DELETE DROPS")
 	})
 
 	return api
