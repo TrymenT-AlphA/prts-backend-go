@@ -1,12 +1,12 @@
 package model
 
 type BuildingSkill struct {
-	ID          string `gorm:"primaryKey"`
-	Name        string
-	Icon        string
-	SortID      int
-	Category    string
-	RoomType    string
-	Description string
-	Characters  []C_BS `gorm:"foreignKey:BuildingSkillID"`
+	Id          string `json:"id" gorm:"primaryKey"`
+	Characters  []C_BS `json:"characters" gorm:"foreignKey:BuildingSkillId"`
+	Icon        string `json:"icon"`
+	Name        string `json:"name"`
+	SortId      int64    `json:"sortId"`
+	Category    string `json:"category"`
+	RoomType    string `json:"roomType"`
+	Description string `json:"description"`
 }

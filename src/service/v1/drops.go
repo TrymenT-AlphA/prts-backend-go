@@ -1,7 +1,8 @@
-package service
+package apiv1
 
 import (
 	"prts-backend/src/model"
+	"prts-backend/src/service"
 	"time"
 
 	"gorm.io/gorm"
@@ -12,29 +13,29 @@ func Drops() (map[string]interface{}, error) {
 	var TimesSum int64
 	var QuantitySum int64
 	// var ApCostSum int64
-	// err := db.
+	// err := service.DB
 	// 	Model(&model.Drop{}).
 	// 	Count(&DropsCount).Error
 	// if err != nil {
 	// 	return nil, err
 	// }
-	err := db.
-		Model(&model.Drop{}).
+	err := service.DB.
+	Model(&model.Drop{}).
 		Select("SUM(Times)").
 		Limit(1).
 		Find(&TimesSum).Error
 	if err != nil {
 		return nil, err
 	}
-	err = db.
-		Model(&model.Drop{}).
+	err = service.DB.
+	Model(&model.Drop{}).
 		Select("SUM(Quantity)").
 		Limit(1).
 		Find(&QuantitySum).Error
 	if err != nil {
 		return nil, err
 	}
-	// err = db.
+	// err = service.DB
 	// 	Model(&model.Drop{}).
 	// 	Select("SUM(ApCost)").
 	// 	Limit(1).
@@ -52,8 +53,8 @@ func Drops() (map[string]interface{}, error) {
 
 func CreateDrop(drop *model.Drop) error {
 	drop.UpdateAt = time.Now()
-	err := db.
-		Model(&model.Drop{}).
+	err := service.DB.
+	Model(&model.Drop{}).
 		Create(drop).
 		Error
 	if err != nil {
@@ -63,7 +64,7 @@ func CreateDrop(drop *model.Drop) error {
 }
 
 func CreateDrops(drops []model.Drop) error {
-	err := db.Transaction(
+	err := service.DB.Transaction(
 		func(tx *gorm.DB) error {
 			for _, drop := range drops {
 				drop.UpdateAt = time.Now()
@@ -84,11 +85,11 @@ func CreateDrops(drops []model.Drop) error {
 }
 
 func UpdateDrop(drop *model.Drop) error {
-	err := db.
-		Model(&model.Drop{}).
+	err := service.DB.
+	Model(&model.Drop{}).
 		Where(&model.Drop{
-			ItemID:  drop.ItemID,
-			StageID: drop.StageID,
+			ItemId:  drop.ItemId,
+			StageId: drop.StageId,
 		}).
 		Where("? >= Start", drop.UpdateAt).
 		Where("END IS null").
@@ -104,14 +105,14 @@ func UpdateDrop(drop *model.Drop) error {
 }
 
 func UpdateDrops(drops []model.Drop) error {
-	err := db.Transaction(
+	err := service.DB.Transaction(
 		func(tx *gorm.DB) error {
 			for _, drop := range drops {
 				err := tx.
 					Model(&model.Drop{}).
 					Where(&model.Drop{
-						ItemID:  drop.ItemID,
-						StageID: drop.StageID,
+						ItemId:  drop.ItemId,
+						StageId: drop.StageId,
 					}).
 					Where("? >= Start", drop.UpdateAt).
 					Where("END IS null").

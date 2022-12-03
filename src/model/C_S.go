@@ -1,9 +1,9 @@
 package model
 
 type C_S struct {
-	Character     Character
-	CharacterID   string `gorm:"primaryKey"`
-	Skill         Skill
-	SkillID       string `gorm:"primaryKey"`
-	LvlupCostCond string
+	Character     Character `json:"character"`
+	CharacterId   string    `json:"characterId" gorm:"primaryKey"`
+	Skill         Skill     `json:"skill"`
+	SkillId       string    `json:"skillId" gorm:"primaryKey"`
+	LvlupCostCond string    `json:"lvlupCostCond"`
 }

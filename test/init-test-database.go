@@ -9,7 +9,7 @@ import (
 var dsn = "chongkai:123456@tcp(127.0.0.1:3306)/prts-go-test?charset=utf8mb4&parseTime=True&loc=Local"
 var db *gorm.DB = nil
 
-func InitTestDB() error {
+func InitTestDatabase() error {
 	if db != nil {
 		return nil
 	}
@@ -20,8 +20,7 @@ func InitTestDB() error {
 			SingularTable: true,
 			NoLowerCase:   true,
 		},
-		//* enable foreignKey to pass test
-		DisableForeignKeyConstraintWhenMigrating: false,
+		DisableForeignKeyConstraintWhenMigrating: true,
 	})
 	if err != nil {
 		return err

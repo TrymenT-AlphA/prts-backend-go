@@ -1,12 +1,15 @@
-package service
+package apiv1
 
-import "prts-backend/src/model"
+import (
+	"prts-backend/src/model"
+	"prts-backend/src/service"
+)
 
 func Enemy(id string) model.Enemy {
 	var result model.Enemy
-	db.
+	service.DB.
 		Model(&model.Enemy{}).
-		Where(&model.Enemy{ID: id}).
+		Where(&model.Enemy{Id: id}).
 		Preload("EnemyInstances").
 		Preload("EnemyInstances.Stages").
 		Preload("EnemyInstances.Stages.Stage").
@@ -23,7 +26,7 @@ func EnemyAvg() map[string]interface{} {
 	var AvgAttackSpeed float64
 	var AvgMoveSpeed float64
 	var AvgMassLevel float64
-	db.
+	service.DB.
 		Model(&model.EnemyInstance{}).
 		Select(`AVG(MaxHp)`).
 		Find(&AvgMaxHp).

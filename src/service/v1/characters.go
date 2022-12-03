@@ -1,10 +1,13 @@
-package service
+package apiv1
 
-import "prts-backend/src/model"
+import (
+	"prts-backend/src/model"
+	"prts-backend/src/service"
+)
 
 func Characters() []model.Character {
 	var result []model.Character
-	db.
+	service.DB.
 		Model(&model.Character{}).
 		Find(&result)
 	return result

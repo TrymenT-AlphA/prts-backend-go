@@ -1,10 +1,13 @@
-package service
+package apiv1
 
-import "prts-backend/src/model"
+import (
+	"prts-backend/src/model"
+	"prts-backend/src/service"
+)
 
 func DropsStages() ([]model.Stage, error) {
 	var result []model.Stage
-	err := db.
+	err := service.DB.
 		Raw(`SELECT prts_stage.*
 			FROM prts_stage
 			JOIN prts_drop

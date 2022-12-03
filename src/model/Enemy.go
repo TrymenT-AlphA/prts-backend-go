@@ -1,19 +1,19 @@
 package model
 
 type Enemy struct {
-	ID              string `gorm:"primaryKey"`
-	SortID          int
-	Name            string
-	Index           string
-	Race            string
-	Level           string
-	AttackType      string
-	Endure          string
-	Attack          string
-	Defence         string
-	Resistance      string
-	Description     string
-	Ability         string
-	IsInvalidKilled bool
-	EnemyInstances  []EnemyInstance `grom:"foreignKey:EnemyID"`
+	Id              string          `json:"id" gorm:"primaryKey"`
+	EnemyInstances  []EnemyInstance `json:"enemyInstances" grom:"foreignKey:EnemyId"`
+	SortId          int64           `json:"sortId"`
+	Name            string          `json:"name"`
+	Index           string          `json:"index"`
+	Race            string          `json:"race"`
+	Level           string          `json:"level"`
+	AttackType      string          `json:"attackType"`
+	Endure          string          `json:"endure"`
+	Attack          string          `json:"attack"`
+	Defence         string          `json:"defence"`
+	Resistance      string          `json:"resistance"`
+	Description     string          `json:"description"`
+	Ability         string          `json:"ability"`
+	IsInvalidKilled bool            `json:"isInvalidKilled"`
 }

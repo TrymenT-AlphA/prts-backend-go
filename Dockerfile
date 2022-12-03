@@ -5,7 +5,7 @@ ENV GOARCH=amd64
 ENV GO111MODULE=on
 ENV GOPROXY=https://goproxy.cn
 
-WORKDIR /build
+WORKDIR /app
 
 COPY go.mod .
 COPY go.sum .
@@ -14,11 +14,13 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -o ./dist/prts-backend
+WORKDIR /app/start
 
-WORKDIR /build/dist
+RUN go build -o ../build/prts-backend
+
+WORKDIR /app/build
 
 RUN apk add --no-cache libc6-compat tini
 ENTRYPOINT [ "/sbin/tini", "--" ]
 
-CMD [ "./prts-backend" ]
+CMD [ "./prts-backend", "-prod" ]

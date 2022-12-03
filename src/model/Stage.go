@@ -3,23 +3,23 @@ package model
 import "database/sql"
 
 type Stage struct {
-	ID                   string `gorm:"primaryKey"`
-	Type                 string
-	Difficulty           string
-	PerformanceStageFlag string
-	DiffGroup            string
-	UnlockCondition      string
-	LevelID              string
-	ZoneID               string
-	Code                 string
-	Name                 string
-	Description          string
-	DangerLevel          string
-	CanPractice          bool
-	PracticeTicketCost   int
-	ApCost               int
-	HardStage            *Stage
-	HardStageID          sql.NullString `gorm:"unique"`
-	Drops                []Drop         `gorm:"foreignKey:StageID"`
-	EnemyInstances       []EI_S         `gorm:"foreignKey:StageID"`
+	Id                   string         `json:"id" gorm:"primaryKey"`
+	Hard                 *Stage         `json:"hard" gorm:"foreignKey:HardId"`
+	HardId               sql.NullString `json:"hardId" gorm:"unique"`
+	Drops                []Drop         `json:"drops" gorm:"foreignKey:StageId"`
+	EnemyInstances       []EI_S         `json:"enemyInstances" gorm:"foreignKey:StageId"`
+	Type                 string         `json:"type"`
+	Difficulty           string         `json:"difficulty"`
+	PerformanceStageFlag string         `json:"performanceStageFlag"`
+	DiffGroup            string         `json:"diffGroup"`
+	UnlockCondition      string         `json:"unlockCondition"`
+	LevelId              string         `json:"levelId"`
+	ZoneId               string         `json:"zoneId"`
+	Code                 string         `json:"code"`
+	Name                 string         `json:"name"`
+	Description          string         `json:"description"`
+	DangerLevel          string         `json:"dangerLevel"`
+	CanPractice          bool           `json:"canPractice"`
+	PracticeTicketCost   int64          `json:"practiceTicketCost"`
+	ApCost               int64          `json:"apCost"`
 }

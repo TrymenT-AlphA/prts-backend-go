@@ -1,10 +1,13 @@
-package service
+package apiv1
 
-import "prts-backend/src/model"
+import (
+	"prts-backend/src/model"
+	"prts-backend/src/service"
+)
 
 func Stages() []model.Stage {
 	var result []model.Stage
-	db.
+	service.DB.
 		Model(&model.Stage{}).
 		Find(&result)
 	return result
