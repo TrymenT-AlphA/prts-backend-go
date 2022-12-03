@@ -5,10 +5,7 @@ import (
 )
 
 func AutoBuild(db *gorm.DB) error {
-
-	var err error
-
-	err = BuildEnemy(db)
+	err := BuildEnemy(db)
 	if err != nil {
 		return err
 	}
@@ -64,7 +61,5 @@ func AutoBuild(db *gorm.DB) error {
 	if err != nil {
 		return err
 	}
-
 	return nil
-
 }
