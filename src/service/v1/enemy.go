@@ -18,37 +18,37 @@ func Enemy(id string) model.Enemy {
 	return result
 }
 
-func EnemyAvg() map[string]interface{} {
-	var AvgMaxHp float64
-	var AvgAtk float64
-	var AvgDef float64
-	var AvgMagicResistance float64
-	var AvgAttackSpeed float64
-	var AvgMoveSpeed float64
-	var AvgMassLevel float64
-	service.DB.
-		Model(&model.EnemyInstance{}).
-		Select(`AVG(MaxHp)`).
-		Find(&AvgMaxHp).
-		Select(`AVG(Atk)`).
-		Find(&AvgAtk).
-		Select(`AVG(Def)`).
-		Find(&AvgDef).
-		Select(`AVG(MagicResistance)`).
-		Find(&AvgMagicResistance).
-		Select(`AVG(AttackSpeed)`).
-		Find(&AvgAttackSpeed).
-		Select(`AVG(MoveSpeed)`).
-		Find(&AvgMoveSpeed).
-		Select(`AVG(MassLevel)`).
-		Find(&AvgMassLevel)
-	return map[string]interface{}{
-		"AvgMaxHp":           AvgMaxHp,
-		"AvgAtk":             AvgAtk,
-		"AvgDef":             AvgDef,
-		"AvgMagicResistance": AvgMagicResistance,
-		"AvgAttackSpeed":     AvgAttackSpeed,
-		"AvgMoveSpeed":       AvgMoveSpeed,
-		"AvgMassLevel":       AvgMassLevel,
-	}
-}
+// func EnemyAvg() map[string]interface{} {
+// 	var AvgMaxHp float64
+// 	var AvgAtk float64
+// 	var AvgDef float64
+// 	var AvgMagicResistance float64
+// 	var AvgAttackSpeed float64
+// 	var AvgMoveSpeed float64
+// 	var AvgMassLevel float64
+// 	service.DB.
+// 		Model(&model.EnemyInstance{}).
+// 		Select(`AVG(MaxHp)`).
+// 		Find(&AvgMaxHp).
+// 		Select(`AVG(Atk)`).
+// 		Find(&AvgAtk).
+// 		Select(`AVG(Def)`).
+// 		Find(&AvgDef).
+// 		Select(`AVG(MagicResistance)`).
+// 		Find(&AvgMagicResistance).
+// 		Select(`AVG(AttackSpeed)`).
+// 		Find(&AvgAttackSpeed).
+// 		Select(`AVG(MoveSpeed)`).
+// 		Find(&AvgMoveSpeed).
+// 		Select(`AVG(MassLevel)`).
+// 		Find(&AvgMassLevel)
+// 	return map[string]interface{}{
+// 		"AvgMaxHp":           AvgMaxHp,
+// 		"AvgAtk":             AvgAtk,
+// 		"AvgDef":             AvgDef,
+// 		"AvgMagicResistance": AvgMagicResistance,
+// 		"AvgAttackSpeed":     AvgAttackSpeed,
+// 		"AvgMoveSpeed":       AvgMoveSpeed,
+// 		"AvgMassLevel":       AvgMassLevel,
+// 	}
+// }
