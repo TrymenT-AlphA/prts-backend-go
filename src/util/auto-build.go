@@ -276,7 +276,13 @@ func BuildStage(db *gorm.DB) error {
 	if err != nil {
 		return err
 	}
+	activity_table, err := ioutil.ReadFile(filepath.Join(excel, "activity_table.json"))
+	if err != nil {
+		return err
+	}
 	var group []model.Stage
+	zoneToActivity := gjson.GetBytes(activity_table, "zoneToActivity")
+	basicInfo := gjson.GetBytes(activity_table, "basicInfo")
 	gjson.GetBytes(stage_table, "stages").ForEach(func(key, value gjson.Result) bool {
 		var single model.Stage
 		single.Id = value.Get("stageId").String()
@@ -300,6 +306,11 @@ func BuildStage(db *gorm.DB) error {
 		single.CanPractice = value.Get("canPractice").Bool()
 		single.PracticeTicketCost = value.Get("practiceTicketCost").Int()
 		single.ApCost = value.Get("apCost").Int()
+		single.Activity = zoneToActivity.Get(single.ZoneId).String()
+		single.ActivityName = basicInfo.Get(single.Activity + ".name").String()
+		single.ActivityDisplayType = basicInfo.Get(single.Activity + ".displayType").String()
+		single.StartTime = time.Unix(basicInfo.Get(single.Activity+".startTime").Int(), 0)
+		single.EndTime = time.Unix(basicInfo.Get(single.Activity+".endTime").Int(), 0)
 		group = append(group, single)
 		return true
 	})
@@ -416,12 +427,24 @@ func BuildDrop(db *gorm.DB) error {
 	gjson.GetBytes(content, "matrix").ForEach(func(key, value gjson.Result) bool {
 		var single model.Drop
 		single.ItemId = value.Get("itemId").String()
+		if single.ItemId == "furni" {
+			return true
+		}
 		single.StageId = value.Get("stageId").String()
+		if strings.Contains(single.StageId, "_perm") {
+			single.Status = "perm"
+			single.StageId = single.StageId[:strings.LastIndex(single.StageId, "_")]
+		} else if strings.Contains(single.StageId, "_rep") {
+			single.Status = "rep"
+			single.StageId = single.StageId[:strings.LastIndex(single.StageId, "_")]
+		} else {
+			single.Status = "normal"
+		}
 		ss := value.Get("start").Int()
-		single.Start = time.Unix(0, ss)
+		single.Start = time.Unix(ss/1000, 0)
 		es := value.Get("end").Int()
 		single.End.Valid = (es != 0)
-		single.End.Time = time.Unix(0, es)
+		single.End.Time = time.Unix(es/1000, 0)
 		single.Times = value.Get("times").Int()
 		single.Quantity = value.Get("quantity").Int()
 		single.StdDev = value.Get("stdDev").Float()

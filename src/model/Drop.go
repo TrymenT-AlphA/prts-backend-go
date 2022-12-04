@@ -16,4 +16,5 @@ type Drop struct {
 	Quantity int64        `json:"quantity"`
 	StdDev   float64      `json:"stdDev"`
 	UpdateAt time.Time    `json:"updateAt"`
+	Status   string       `json:"status"`
 }

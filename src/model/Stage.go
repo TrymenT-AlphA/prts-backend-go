@@ -1,6 +1,9 @@
 package model
 
-import "database/sql"
+import (
+	"database/sql"
+	"time"
+)
 
 type Stage struct {
 	Id                   string         `json:"id" gorm:"primaryKey"`
@@ -22,4 +25,9 @@ type Stage struct {
 	CanPractice          bool           `json:"canPractice"`
 	PracticeTicketCost   int64          `json:"practiceTicketCost"`
 	ApCost               int64          `json:"apCost"`
+	Activity             string         `json:"activity"`
+	ActivityName         string         `json:"activityName"`
+	ActivityDisplayType  string         `json:"activityDisplayType"`
+	StartTime            time.Time      `json:"startTime"`
+	EndTime              time.Time      `json:"endTime"`
 }

@@ -9,52 +9,32 @@ import (
 )
 
 func Drops() (map[string]interface{}, error) {
-	// var DropsCount int64
-	var TimesSum int64
-	var QuantitySum int64
-	// var ApCostSum int64
-	// err := service.DB
-	// 	Model(&model.Drop{}).
-	// 	Count(&DropsCount).Error
-	// if err != nil {
-	// 	return nil, err
-	// }
-	err := service.DB.
-	Model(&model.Drop{}).
+	var totalTimes int64
+	var totalQuantity int64
+	if err := service.DB.
+		Model(&model.Drop{}).
 		Select("SUM(Times)").
-		Limit(1).
-		Find(&TimesSum).Error
-	if err != nil {
+		Find(&totalTimes).
+		Error; err != nil {
 		return nil, err
 	}
-	err = service.DB.
-	Model(&model.Drop{}).
+	if err := service.DB.
+		Model(&model.Drop{}).
 		Select("SUM(Quantity)").
-		Limit(1).
-		Find(&QuantitySum).Error
-	if err != nil {
+		Find(&totalQuantity).
+		Error; err != nil {
 		return nil, err
 	}
-	// err = service.DB
-	// 	Model(&model.Drop{}).
-	// 	Select("SUM(ApCost)").
-	// 	Limit(1).
-	// 	Find(&QuantitySum).Error
-	// if err != nil {
-	// 	return nil, err
-	// }
 	return map[string]interface{}{
-		// "DropsCount":  DropsCount,
-		"TimesSum":    TimesSum,
-		"QuantitySum": QuantitySum,
-		// "ApCostSum":   ApCostSum,
+		"totalTimes":    totalTimes,
+		"totalQuantity": totalQuantity,
 	}, nil
 }
 
 func CreateDrop(drop *model.Drop) error {
 	drop.UpdateAt = time.Now()
 	err := service.DB.
-	Model(&model.Drop{}).
+		Model(&model.Drop{}).
 		Create(drop).
 		Error
 	if err != nil {
@@ -86,7 +66,7 @@ func CreateDrops(drops []model.Drop) error {
 
 func UpdateDrop(drop *model.Drop) error {
 	err := service.DB.
-	Model(&model.Drop{}).
+		Model(&model.Drop{}).
 		Where(&model.Drop{
 			ItemId:  drop.ItemId,
 			StageId: drop.StageId,
