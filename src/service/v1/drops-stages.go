@@ -8,11 +8,11 @@ import (
 func DropsStages() ([]model.Stage, error) {
 	var result []model.Stage
 	err := service.DB.
-		Raw(`SELECT prts_stage.*
-			FROM prts_stage
-			JOIN prts_drop
-			ON prts_stage.ID = prts_drop.StageID
-			GROUP BY ID`).
+		Raw(`SELECT prts_Stage.*
+			FROM prts_Stage
+			JOIN prts_Drop
+			ON prts_Stage.Id = prts_Drop.StageId
+			GROUP BY Id`).
 		Scan(&result).
 		Error
 	return result, err
