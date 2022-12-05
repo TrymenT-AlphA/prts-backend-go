@@ -10,6 +10,8 @@ func Item(id string) model.Item {
 	service.DB.
 		Model(&model.Item{}).
 		Where(&model.Item{Id: id}).
+		Preload("Drops").
+		Preload("Drops.Stage").
 		Limit(1).
 		Find(&result)
 	return result
