@@ -10,6 +10,9 @@ func Stage(id string) model.Stage {
 	service.DB.
 		Model(&model.Stage{}).
 		Where(&model.Stage{Id: id}).
+		Preload("Drops").
+		Preload("Drops.Item").
+		Preload("Hard").
 		Preload("EnemyInstances").
 		Limit(1).
 		Find(&result)

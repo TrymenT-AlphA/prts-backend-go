@@ -30,4 +30,8 @@ type Stage struct {
 	ActivityDisplayType  string         `json:"activityDisplayType"`
 	StartTime            time.Time      `json:"startTime"`
 	EndTime              time.Time      `json:"endTime"`
+	CharacterLimit       int64          `json:"characterLimit"`
+	MaxLifePoint         int64          `json:"maxLifePoint"`
+	InitialCost          int64          `json:"initialCost"`
+	MaxCost              int64          `json:"maxCost"`
 }

@@ -3,6 +3,7 @@ package util
 import (
 	"encoding/json"
 	"io/ioutil"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -117,7 +118,7 @@ func BuildEnemy(db *gorm.DB) error {
 		return err
 	}
 	var group []model.Enemy
-	gjson.ParseBytes(enemy_handbook_table).ForEach(func(key, value gjson.Result) bool {
+	gjson.ParseBytes(enemy_handbook_table).ForEach(func(_, value gjson.Result) bool {
 		var single model.Enemy
 		single.Id = value.Get("enemyId").String()
 		single.SortId = value.Get("sortId").Int()
@@ -161,10 +162,10 @@ func BuildEnemyInstance(db *gorm.DB) error {
 		return err
 	}
 	var group []model.EnemyInstance
-	gjson.GetBytes(enemy_database, "enemies").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(enemy_database, "enemies").ForEach(func(_, value gjson.Result) bool {
 		var single model.EnemyInstance
 		single.EnemyId = value.Get("Key").String()
-		value.Get("Value").ForEach(func(key, value gjson.Result) bool {
+		value.Get("Value").ForEach(func(_, value gjson.Result) bool {
 			single.Level = value.Get("level").Int()
 			if value.Get("enemyData.name.m_defined").Bool() {
 				single.Name = value.Get("enemyData.name.m_value").String()
@@ -283,7 +284,7 @@ func BuildStage(db *gorm.DB) error {
 	var group []model.Stage
 	zoneToActivity := gjson.GetBytes(activity_table, "zoneToActivity")
 	basicInfo := gjson.GetBytes(activity_table, "basicInfo")
-	gjson.GetBytes(stage_table, "stages").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(stage_table, "stages").ForEach(func(_, value gjson.Result) bool {
 		var single model.Stage
 		single.Id = value.Get("stageId").String()
 		single.HardId.String = value.Get("hardStagedId").String()
@@ -311,6 +312,25 @@ func BuildStage(db *gorm.DB) error {
 		single.ActivityDisplayType = basicInfo.Get(single.Activity + ".displayType").String()
 		single.StartTime = time.Unix(basicInfo.Get(single.Activity+".startTime").Int(), 0)
 		single.EndTime = time.Unix(basicInfo.Get(single.Activity+".endTime").Int(), 0)
+		if single.LevelId != "" {
+			LevelPath := filepath.Join(levels, strings.ToLower(single.LevelId)+".json")
+			_, err := os.Stat(LevelPath)
+			if err != nil {
+				if !os.IsNotExist(err) {
+					log.Fatal(err)
+				}
+			} else {
+				result, err := ioutil.ReadFile(LevelPath)
+				if err != nil {
+					log.Fatal(err)
+				}
+				value := gjson.GetBytes(result, "options")
+				single.CharacterLimit = value.Get("characterLimit").Int()
+				single.MaxLifePoint = value.Get("maxLifePoint").Int()
+				single.InitialCost = value.Get("initialCost").Int()
+				single.MaxCost = value.Get("maxCost").Int()
+			}
+		}
 		group = append(group, single)
 		return true
 	})
@@ -339,7 +359,7 @@ func BuildEI_S(db *gorm.DB) error {
 		return err
 	}
 	var group []model.EI_S
-	gjson.GetBytes(stage_table, "stages").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(stage_table, "stages").ForEach(func(_, value gjson.Result) bool {
 		stageId := value.Get("stageId").String()
 		levelId := value.Get("levelId").String()
 		if levelId != "" {
@@ -347,7 +367,7 @@ func BuildEI_S(db *gorm.DB) error {
 			if err != nil {
 				return true
 			}
-			gjson.GetBytes(stageDB, "enemyDbRefs").ForEach(func(key, value gjson.Result) bool {
+			gjson.GetBytes(stageDB, "enemyDbRefs").ForEach(func(_, value gjson.Result) bool {
 				var single model.EI_S
 				single.EnemyId = value.Get("id").String()
 				single.Level = value.Get("level").Int()
@@ -383,7 +403,7 @@ func BuildItem(db *gorm.DB) error {
 		return err
 	}
 	var group []model.Item
-	gjson.GetBytes(item_table, "items").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(item_table, "items").ForEach(func(_, value gjson.Result) bool {
 		var single model.Item
 		single.Id = value.Get("itemId").String()
 		single.Name = value.Get("name").String()
@@ -424,7 +444,7 @@ func BuildDrop(db *gorm.DB) error {
 		return err
 	}
 	var group []model.Drop
-	gjson.GetBytes(content, "matrix").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(content, "matrix").ForEach(func(_, value gjson.Result) bool {
 		var single model.Drop
 		single.ItemId = value.Get("itemId").String()
 		if single.ItemId == "furni" {
@@ -599,7 +619,7 @@ func BuildBuildingSkill(db *gorm.DB) error {
 		return err
 	}
 	var group []model.BuildingSkill
-	gjson.GetBytes(building_data, "buffs").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(building_data, "buffs").ForEach(func(_, value gjson.Result) bool {
 		var single model.BuildingSkill
 		single.Id = value.Get("buffId").String()
 		single.Icon = value.Get("buffName").String()
@@ -636,7 +656,7 @@ func BuildC_BS(db *gorm.DB) error {
 		return err
 	}
 	var group []model.C_BS
-	gjson.GetBytes(building_data, "chars").ForEach(func(key, value gjson.Result) bool {
+	gjson.GetBytes(building_data, "chars").ForEach(func(_, value gjson.Result) bool {
 		var single model.C_BS
 		single.CharacterId = value.Get("charId").String()
 		value.Get("buffChar").ForEach(func(_, value gjson.Result) bool {
@@ -676,7 +696,7 @@ func BuildSkill(db *gorm.DB) error {
 		return err
 	}
 	var group []model.Skill
-	gjson.ParseBytes(skill_table).ForEach(func(key, value gjson.Result) bool {
+	gjson.ParseBytes(skill_table).ForEach(func(_, value gjson.Result) bool {
 		var single model.Skill
 		single.Id = value.Get("skillId").String()
 		iconId := value.Get("iconId").String()
@@ -713,7 +733,7 @@ func BuildSkillInstance(db *gorm.DB) error {
 		return err
 	}
 	var group []model.SkillInstance
-	gjson.ParseBytes(skill_table).ForEach(func(key, value gjson.Result) bool {
+	gjson.ParseBytes(skill_table).ForEach(func(_, value gjson.Result) bool {
 		var single model.SkillInstance
 		single.SkillId = value.Get("skillId").String()
 		value.Get("levels").ForEach(func(key, value gjson.Result) bool {
