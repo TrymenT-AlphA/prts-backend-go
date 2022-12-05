@@ -13,7 +13,8 @@ func Stage(id string) model.Stage {
 		Preload("Drops").
 		Preload("Drops.Item").
 		Preload("Hard").
-		Preload("EnemyInstances").
+		Preload("EnemyInstances.EnemyInstance").
+		Preload("EnemyInstances.EnemyInstance.Enemy").
 		Limit(1).
 		Find(&result)
 	return result

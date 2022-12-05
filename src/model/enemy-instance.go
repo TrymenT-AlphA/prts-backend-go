@@ -1,6 +1,7 @@
 package model
 
 type EnemyInstance struct {
+	Enemy            Enemy   `json:"enemy"`
 	EnemyId          string  `json:"enemyId" gorm:"primaryKey"`
 	Level            int64   `json:"level" gorm:"primaryKey"`
 	Stages           []EI_S  `json:"stages" gorm:"foreignKey:EnemyId,Level"`
