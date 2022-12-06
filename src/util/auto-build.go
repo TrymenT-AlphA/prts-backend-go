@@ -8,6 +8,8 @@ import (
 	"os"
 	"path/filepath"
 	"prts-backend/src/model"
+	"regexp"
+	"strconv"
 	"strings"
 	"time"
 
@@ -571,7 +573,7 @@ func BuildCharacterInstance(db *gorm.DB) error {
 	gjson.ParseBytes(character_table).ForEach(func(key, value gjson.Result) bool {
 		var single model.CharacterInstance
 		single.CharacterId = key.String()
-		value.Get("phases").ForEach(func(_, value gjson.Result) bool {
+		value.Get("phases").ForEach(func(key, value gjson.Result) bool {
 			single.Phase = key.Int()
 			single.RangeId = value.Get("rangeId").String()
 			single.EvolveCost = value.Get("evolveCost").String()
@@ -761,6 +763,19 @@ func BuildSkillInstance(db *gorm.DB) error {
 			single.SpCost = value.Get("spData.spCost").Int()
 			single.InitSp = value.Get("spData.initSp").Int()
 			single.Duration = value.Get("duration").Int()
+			value.Get("blackboard").ForEach(func(_, value gjson.Result) bool {
+				key := strings.ToLower(value.Get("key").String())
+				val := strconv.FormatFloat(value.Get("value").Float(), 'f', 2, 64)
+				reg := regexp.MustCompile(`{` + key + `:?([\d\.]*)(%?)}`)
+				if reg != nil {
+					result := reg.FindAllStringSubmatch(single.Description, -1)
+					if result != nil {
+						single.Description = strings.Replace(single.Description, result[0][0], val, -1)
+						log.Print(single.Description)
+					}
+				}
+				return true
+			})
 			group = append(group, single)
 			return true
 		})
