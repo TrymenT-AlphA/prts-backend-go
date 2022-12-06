@@ -496,6 +496,11 @@ func BuildCharacter(db *gorm.DB) error {
 	if err != nil {
 		return err
 	}
+	handbook_info_table, err := ioutil.ReadFile(filepath.Join(excel, "handbook_info_table.json"))
+	if err != nil {
+		return err
+	}
+	handbook_dict := gjson.GetBytes(handbook_info_table, "handbookDict")
 	var group []model.Character
 	gjson.ParseBytes(character_table).ForEach(func(key, value gjson.Result) bool {
 		var single model.Character
@@ -527,6 +532,14 @@ func BuildCharacter(db *gorm.DB) error {
 		single.SubProfessionId = value.Get("subProfessionId").String()
 		single.AllSkillLvlupList = value.Get("allSkillLvlup").String()
 		single.PotentialList = value.Get("potentialRanks").String()
+		single.Sex = handbook_dict.Get(single.Id + ".storyTextAudio.0.stories.0.storyText").String()
+		if strings.Contains(single.Sex, "女") {
+			single.Sex = "女"
+		} else if strings.Contains(single.Sex, "男") {
+			single.Sex = "男"
+		} else if strings.Contains(single.Sex, "断罪") {
+			single.Sex = "断罪"
+		}
 		group = append(group, single)
 		return true
 	})

@@ -34,4 +34,5 @@ type Character struct {
 	SubProfessionId             string              `json:"subProfessionId"`
 	AllSkillLvlupList           string              `json:"allSkillLvlupList"`
 	PotentialList               string              `json:"potentialList"`
+	Sex                         string              `json:"sex"`
 }
