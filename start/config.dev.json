@@ -1,6 +1,6 @@
 {
     "port": ":33333",
-    "dsn": "chongkai:123456@tcp(localhost:3306)/prts-go?charset=utf8mb4&parseTime=True&loc=Local",
+    "dsn": "aliceremake:123456@tcp(localhost:3306)/prts-go?charset=utf8mb4&parseTime=True&loc=Local",
     "prefork": false,
     "caseSensitive": false,
     "strictRouting": false,

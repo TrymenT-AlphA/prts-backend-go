@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -13,27 +12,30 @@ import (
 )
 
 func main() {
+	// simply set prod option
 	prod := flag.Bool("prod", false, "prod")
 	flag.Parse()
+	var configFile string
+	if *prod { // if you use prod option
+		configFile = "config.prod.json"
+	} else { // default
+		configFile = "config.dev.json"
+	}
+	// get cwd
 	cwd, err := os.Getwd()
 	if err != nil {
 		log.Fatal(err)
-	}
-	var bytes []byte
-	var configFile string
-	if *prod {
-		configFile = "config.prod.json"
 	} else {
-		configFile = "config.dev.json"
+		log.Print("[INFO] Reading Config from " + configFile)
 	}
-	log.Print("[INFO] Reading Config from " + configFile)
-	bytes, err = ioutil.ReadFile(filepath.Join(cwd, "..", "start", configFile))
+	// read config file
+	bytes, err := os.ReadFile(filepath.Join(cwd, "..", "start", configFile))
 	if err != nil {
 		log.Fatal(err)
 	}
 	config := gjson.ParseBytes(bytes)
-
-	server.Run(
+	// run the server
+	if err = server.Run(
 		config.Get("port").String(),
 		config.Get("dsn").String(),
 		fiber.Config{
@@ -42,5 +44,7 @@ func main() {
 			StrictRouting: config.Get("strictRouting").Bool(),
 			ServerHeader:  config.Get("serverHeader").String(),
 			AppName:       config.Get("appName").String(),
-		})
+		}); err != nil {
+		log.Fatal(err)
+	}
 }

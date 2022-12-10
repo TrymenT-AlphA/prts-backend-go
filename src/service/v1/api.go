@@ -13,9 +13,8 @@ func GetAPI() *fiber.App {
 		return c.SendString("prts-backend api version 1 is running!")
 	})
 
-	//* RESTAPI>V1>CHARACTER
+	//********************* CHARACTER ***************************
 
-	//* RESTAPI>V1>CHARACTER>GET
 	api.Get("/characters", func(c *fiber.Ctx) error {
 		return c.JSON(Characters())
 	})
@@ -24,9 +23,8 @@ func GetAPI() *fiber.App {
 		return c.JSON(Character(c.Params("id")))
 	})
 
-	//* RESTAPI>V1>ENEMY
+	//********************* ENEMY ***************************
 
-	//* RESTAPI>V1>ENEMY>GET
 	api.Get("/enemies", func(c *fiber.Ctx) error {
 		return c.JSON(Enemies())
 	})
@@ -35,9 +33,8 @@ func GetAPI() *fiber.App {
 		return c.JSON(Enemy(c.Params("id")))
 	})
 
-	//* RESTAPI>V1>ITEM
+	//********************* ITEM ***************************
 
-	//* RESTAPI>V1>ITEM>GET
 	api.Get("/items", func(c *fiber.Ctx) error {
 		return c.JSON(Items())
 	})
@@ -46,9 +43,8 @@ func GetAPI() *fiber.App {
 		return c.JSON(Item(c.Params("id")))
 	})
 
-	//* RESTAPI>V1>STAGE
+	//********************* STAGE ***************************
 
-	//* RESTAPI>V1>STAGE>GET
 	api.Get("/stages", func(c *fiber.Ctx) error {
 		return c.JSON(Stages())
 	})
@@ -57,9 +53,8 @@ func GetAPI() *fiber.App {
 		return c.JSON(Stage(c.Params("id")))
 	})
 
-	//* RESTAPI>V1>DROP
+	//********************* DROP ***************************
 
-	//* RESTAPI>V1>DROP>GET
 	api.Get("/drops", func(c *fiber.Ctx) error {
 		result, err := Drops()
 		if err != nil {
@@ -92,44 +87,47 @@ func GetAPI() *fiber.App {
 		return c.JSON(DropsStage(c.Params("id")))
 	})
 
-	//* RESTAPI>V1>DROP>POST
 	api.Post("/drop", func(c *fiber.Ctx) error {
 		c.Accepts("application/json")
 		var drop model.Drop
-		c.BodyParser(&drop)
+		if err := c.BodyParser(&drop); err != nil {
+			return err
+		}
 		return CreateDrop(&drop)
 	})
 
 	api.Post("/drops", func(c *fiber.Ctx) error {
 		c.Accepts("application/json")
 		var drops []model.Drop
-		c.BodyParser(&drops)
+		if err := c.BodyParser(&drops); err != nil {
+			return err
+		}
 		return CreateDrops(drops)
 	})
 
-	//* RESTAPI>V1>DROP>PUT
 	api.Put("/drop", func(c *fiber.Ctx) error {
 		c.Accepts("application/json")
 		var drop model.Drop
-		c.BodyParser(&drop)
+		if err := c.BodyParser(&drop); err != nil {
+			return err
+		}
 		return UpdateDrop(&drop)
 	})
 
 	api.Put("/drops", func(c *fiber.Ctx) error {
 		c.Accepts("application/json")
 		var drops []model.Drop
-		c.BodyParser(&drops)
+		if err := c.BodyParser(&drops); err != nil {
+			return err
+		}
 		return UpdateDrops(drops)
 	})
 
-	//* RESTAPI>V1>DROP>DELETE
 	api.Delete("/drop", func(c *fiber.Ctx) error {
-		//! DELETE A DROP IS NOT ALLOWED
 		return fiber.NewError(403, "PERMISSION DENIED: DELETE DROP")
 	})
 
 	api.Delete("/drops", func(c *fiber.Ctx) error {
-		//! DELETE DROPS IS NOT ALLOWED
 		return fiber.NewError(403, "PERMISSION DENIED: DELETE DROPS")
 	})
 

@@ -7,7 +7,7 @@ import (
 )
 
 func AutoMigrate(db *gorm.DB) error {
-	err := db.AutoMigrate(
+	if err := db.AutoMigrate(
 		&model.Enemy{},
 		&model.EnemyInstance{},
 		&model.Stage{},
@@ -22,9 +22,9 @@ func AutoMigrate(db *gorm.DB) error {
 		&model.SkillInstance{},
 		&model.C_S{},
 		&model.Talent{},
-	)
-	if err != nil {
+	); err != nil {
 		return err
 	}
+
 	return nil
 }
