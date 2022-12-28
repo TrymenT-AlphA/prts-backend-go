@@ -5,7 +5,7 @@ type BuildingSkill struct {
 	Characters  []C_BS `json:"characters" gorm:"foreignKey:BuildingSkillId"`
 	Icon        string `json:"icon"`
 	Name        string `json:"name"`
-	SortId      int64    `json:"sortId"`
+	SortId      int64  `json:"sortId"`
 	Category    string `json:"category"`
 	RoomType    string `json:"roomType"`
 	Description string `json:"description"`

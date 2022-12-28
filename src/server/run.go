@@ -10,10 +10,8 @@ import (
 )
 
 func Run(port string, dsn string, config fiber.Config) error {
-	if !fiber.IsChild() {
-		if err := service.InitDatabase(dsn); err != nil {
-			return err
-		}
+	if err := service.InitDatabase(dsn, fiber.IsChild()); err != nil {
+		return err
 	}
 
 	// the very basic server function

@@ -12,7 +12,7 @@ func Enemy(id string) model.Enemy {
 		Where(&model.Enemy{Id: id}).
 		Preload("EnemyInstances").
 		Preload("EnemyInstances.Stages").
-		Preload("EnemyInstances.Stages.Stage").
+		Preload("EnemyInstances.Stages.Stage", "Difficulty != ?", "FOUR_STAR").
 		Limit(1).
 		Find(&result)
 	return result

@@ -49,6 +49,18 @@ func GetAPI() *fiber.App {
 		return c.JSON(Stages())
 	})
 
+	api.Get("/stages/main", func(c *fiber.Ctx) error {
+		return c.JSON(MainStages())
+	})
+
+	api.Get("/stages/perm", func(c *fiber.Ctx) error {
+		return c.JSON(PermStages())
+	})
+
+	api.Get("/stages/acti", func(c *fiber.Ctx) error {
+		return c.JSON(ActiStages())
+	})
+
 	api.Get("/stages/:id", func(c *fiber.Ctx) error {
 		return c.JSON(Stage(c.Params("id")))
 	})

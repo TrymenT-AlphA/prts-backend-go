@@ -779,7 +779,7 @@ func BuildSkillInstance(db *gorm.DB) error {
 				value.Get("blackboard").ForEach(func(_, value gjson.Result) bool {
 					key := strings.ToLower(value.Get("key").String())
 					val := strconv.FormatFloat(value.Get("value").Float(), 'f', 2, 64)
-					reg := regexp.MustCompile(`{` + key + `:?([\d\.]*)(%?)}`)
+					reg := regexp.MustCompile(`{-?` + key + `:?([\d\.]*)(%?)}`)
 					if reg != nil {
 						result := reg.FindAllStringSubmatch(single.Description, -1)
 						if result != nil {

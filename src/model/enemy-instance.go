@@ -17,7 +17,7 @@ type EnemyInstance struct {
 	AttackSpeed      float64 `json:"attackSpeed"`
 	BaseAttackTime   float64 `json:"baseAttackTime"`
 	RespawnTime      float64 `json:"respawnTime"`
-	HpRecoveryPerSec float64 `json:"HpRecoveryPerSec"`
+	HpRecoveryPerSec float64 `json:"hpRecoveryPerSec"`
 	SpRecoveryPerSec float64 `json:"spRecoveryPerSec"`
 	MaxDeployCount   int64   `json:"maxDeployCount"`
 	MassLevel        int64   `json:"massLevel"`

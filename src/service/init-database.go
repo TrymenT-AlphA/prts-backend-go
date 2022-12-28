@@ -11,7 +11,7 @@ import (
 
 var DB *gorm.DB = nil
 
-func InitDatabase(dsn string) error {
+func InitDatabase(dsn string, isChild bool) error {
 	if DB != nil {
 		return nil
 	}
@@ -30,17 +30,20 @@ func InitDatabase(dsn string) error {
 	if err != nil {
 		return err
 	}
-	// migrate data model
-	if err = util.AutoMigrate(DB); err != nil {
-		return err
-	} else {
-		log.Print("[SUCCESS] auto migrate database")
-	}
-	// set up data table
-	if err = util.AutoBuild(DB); err != nil {
-		return err
-	} else {
-		log.Print("[SUCCESS] auto build table data")
+
+	if !isChild {
+		// migrate data model
+		if err = util.AutoMigrate(DB); err != nil {
+			return err
+		} else {
+			log.Print("[SUCCESS] auto migrate database")
+		}
+		// set up data table
+		if err = util.AutoBuild(DB); err != nil {
+			return err
+		} else {
+			log.Print("[SUCCESS] auto build table data")
+		}
 	}
 
 	return nil
