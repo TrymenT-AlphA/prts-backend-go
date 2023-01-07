@@ -777,7 +777,8 @@ func BuildSkillInstance(db *gorm.DB) error {
 				single.InitSp = value.Get("spData.initSp").Int()
 				single.Duration = value.Get("duration").Int()
 				value.Get("blackboard").ForEach(func(_, value gjson.Result) bool {
-					key := strings.ToLower(value.Get("key").String())
+					key := strings.Replace(strings.ToLower(value.Get("key").String()), "[", "\\[", -1)
+					key = strings.Replace(key, "]", "\\]", -1)
 					val := strconv.FormatFloat(value.Get("value").Float(), 'f', 2, 64)
 					reg := regexp.MustCompile(`{-?` + key + `:?([\d\.]*)(%?)}`)
 					if reg != nil {
