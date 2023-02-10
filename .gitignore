@@ -15,4 +15,7 @@
 # vendor/
 
 # custom
+/.idea
+/.vscode
 /build
+/gamedata
