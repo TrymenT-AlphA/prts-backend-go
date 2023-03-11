@@ -1,7 +1,21 @@
-# Deploy
+# prts-backend-go
 
-## Windows Using docker
+## Introduction
 
-```cmd
-./cmd/docker.bat
+a RESTful api build with golang
+
+## Deploy
+
+### Windows using docker
+
+use a git bash
+
+```bash
+./cmd/docker.sh
+```
+
+### Linux using docker
+
+```bash
+./cmd/docker.sh
 ```
