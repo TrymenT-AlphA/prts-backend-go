@@ -1,7 +1,6 @@
 package util
 
 import (
-	"encoding/json"
 	"io"
 	"log"
 	"net/http"
@@ -22,7 +21,7 @@ var cwd string
 var gamedata string
 var excel string
 var levels string
-var data string
+// var data string
 var server string
 
 func InitPath() error {
@@ -30,7 +29,7 @@ func InitPath() error {
 		gamedata != "" &&
 		excel != "" &&
 		levels != "" &&
-		data != "" &&
+		// data != "" &&
 		server != "" {
 		return nil
 	}
@@ -42,18 +41,18 @@ func InitPath() error {
 		return err
 	}
 	gamedata = filepath.Join(cwd, "..", "gamedata", server, "gamedata")
-	data = filepath.Join(cwd, "..", "data", server)
+	// data = filepath.Join(cwd, "..", "data", server)
 	excel = filepath.Join(gamedata, "excel")
 	levels = filepath.Join(gamedata, "levels")
 
-	_, err = os.Stat(data)
-	if os.IsNotExist(err) {
-		if err := os.Mkdir(data, 0666); err != nil {
-			return err
-		}
-	} else {
-		return err
-	}
+	// _, err = os.Stat(data)
+	// if os.IsNotExist(err) {
+	// 	if err := os.Mkdir(data, 0666); err != nil {
+	// 		return err
+	// 	}
+	// } else {
+	// 	return err
+	// }
 	return nil
 }
 
@@ -69,17 +68,17 @@ func ReadFromLevels(path string) ([]byte, error) {
 	return os.ReadFile(getPath(levels, path))
 }
 
-func WriteJson(obj interface{}, path string) error {
-	bytes, err := json.Marshal(obj)
-	if err != nil {
-		return err
-	}
-	err = os.WriteFile(path, bytes, 0666)
-	if err != nil {
-		return err
-	}
-	return nil
-}
+// func WriteJson(obj interface{}, path string) error {
+// 	bytes, err := json.Marshal(obj)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	err = os.WriteFile(path, bytes, 0666)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	return nil
+// }
 
 func CreateInBatches(db *gorm.DB, obj interface{}) error {
 	return db.
@@ -184,9 +183,9 @@ func BuildEnemy(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "enemy.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "enemy.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -297,9 +296,9 @@ func BuildEnemyInstance(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "enemy-instance.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "enemy-instance.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -369,9 +368,9 @@ func BuildStage(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "stage.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "stage.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -411,9 +410,9 @@ func BuildEI_S(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "ei_s.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "ei_s.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -448,9 +447,9 @@ func BuildItem(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "item.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "item.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -506,9 +505,9 @@ func BuildDrop(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "drop.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "drop.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -574,9 +573,9 @@ func BuildCharacter(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "character.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "character.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -635,9 +634,9 @@ func BuildCharacterInstance(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "character-instance.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "character-instance.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -669,9 +668,9 @@ func BuildBuildingSkill(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "building-skill.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "building-skill.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -706,9 +705,9 @@ func BuildC_BS(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "c_bs.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "c_bs.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -740,9 +739,9 @@ func BuildSkill(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "skill.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "skill.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -795,9 +794,9 @@ func BuildSkillInstance(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "skill-instance.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "skill-instance.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -828,9 +827,9 @@ func BuildC_S(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "c_s.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "c_s.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}
@@ -869,9 +868,9 @@ func BuildTalent(db *gorm.DB) error {
 			return true
 		})
 
-	if err := WriteJson(group, getPath(data, "talent.json")); err != nil {
-		return err
-	}
+	// if err := WriteJson(group, getPath(data, "talent.json")); err != nil {
+	// 	return err
+	// }
 	if err := CreateInBatches(db, group); err != nil {
 		return err
 	}

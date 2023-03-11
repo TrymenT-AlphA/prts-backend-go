@@ -1,1 +1,0 @@
-@rm -r ./build>nul 2>nul
